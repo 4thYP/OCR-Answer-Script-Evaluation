@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "18.19%",
+    "word_accuracy": "78.52%",
+    "cer": "21.66%",
+    "wer": "33.01%",
+    "bleu_4": "59.85%",
+    "rouge_l_f1": "80.30%",
+    "bertscore_f1": "43.26%",
+    "extracted_words": 363,
+    "ground_truth_words": 312
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 21.66219839142091,
+      "wer": 33.01282051282051
+    },
+    "bleu_scores": {
+      "bleu_1": 76.03305785123968,
+      "bleu_2": 69.80570790962966,
+      "bleu_3": 64.52221212499785,
+      "bleu_4": 59.85334449624479
+    },
+    "rouge_scores": {
+      "rouge_1": 89.02439024390245,
+      "rouge_2": 75.36764705882352,
+      "rouge_l_recall": 86.85897435897436,
+      "rouge_l_precision": 74.65564738292011,
+      "rouge_l_f1": 80.29629629629629
+    },
+    "bertscore": {
+      "precision": 40.22038567493113,
+      "recall": 46.794871794871796,
+      "f1": 43.25925925925927
+    },
+    "traditional_metrics": {
+      "character_accuracy": 18.186385330319016,
+      "word_accuracy": 78.51851851851852,
+      "precision": 40.22038567493113,
+      "recall": 46.794871794871796,
+      "f1_score": 43.25925925925926
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2159,
+    "ground_truth_character_count": 1871,
+    "extracted_word_count": 363,
+    "ground_truth_word_count": 312,
+    "common_word_count": 146
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Swarnali Bamanik\n13030823136\nMachine Learning Application\n(PCC-AIML-601)\n24/03/25\n\nPart A\n\n1. The tw...",
+    "first_100_chars_ground_truth": "Name: Swarnali Pramanik\nRoll No.: 13030823136\n\nPart A\nThe two most common supervised tasks are Regre..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "swarnali bamanik",
+      "ground_truth": "name: swarnali pramanik",
+      "similarity": 76.92307692307693
+    },
+    {
+      "line_number": 2,
+      "extracted": "13030823136",
+      "ground_truth": "roll no.: 13030823136",
+      "similarity": 68.75
+    },
+    {
+      "line_number": 3,
+      "extracted": "machine learning application",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "(pcc-aiml-601)",
+      "ground_truth": "part a",
+      "similarity": 20.0
+    },
+    {
+      "line_number": 5,
+      "extracted": "24/03/25",
+      "ground_truth": "the two most common supervised tasks are regression and classification.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 6,
+      "extracted": "",
+      "ground_truth": "the purpose of a validation set is used after training the model. it is used to evaluate the model performance and tuning the model.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 7,
+      "extracted": "part a",
+      "ground_truth": "2 model parameters are there in a linear regression problem with a single feature variable.",
+      "similarity": 12.371134020618557
+    },
+    {
+      "line_number": 8,
+      "extracted": "",
+      "ground_truth": "the auc value of a perfect classifier is 1.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 9,
+      "extracted": "1. the two most common supervised tasks",
+      "ground_truth": "precision is more important for a spam email detection system.",
+      "similarity": 23.762376237623762
+    },
+    {
+      "line_number": 10,
+      "extracted": "are regression and classification.",
+      "ground_truth": "",
+      "similarity": 0.0
+    }
+  ]
+}

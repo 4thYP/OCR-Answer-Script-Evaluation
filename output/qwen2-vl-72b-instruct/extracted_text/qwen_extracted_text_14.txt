@@ -1,0 +1,76 @@
+AYUSH KUMAR DUBEY
+13030822014 B.TECH CSE (AIML-A)
+Afflication of Machine Learning 6th
+in Industries
+PART-A
+1). Two most common supervisoried tasks are -
+. Regression
+. Classification
+3). There 2 model parameters in a linear regression
+problem with a single feature variable.
+They are intercept and co-efficient.
+2). The main purpose of the Validation set is to make
+the given datasets valid and to make them correct
+for the further functions
+2). The main purpose of Validation set is that it is
+used to evaluate the performance of a model.
+5). Precision is more important for a spam e-mail
+detection.
+4). The AUC value of a perfect classifier is '1.
+
+PART - B
+
+6) Train-test-split is a model that is used to divide
+the dataset into training dataset and testing dataset
+
+Implementation: From sklearn.model_selection, import
+train_test_split, x_train, x_test, y_train, y_test =
+train_test_split (x, y, test_size = 0.2, random_state=42)
+
+Overfitting is a problem that occurs if in a training
+model where it can predict accurately for
+data in a dataset but fail on real world data.
+
+Underfitting makes the training model such way
+that it can predict accurately for real world data
+
+Prevention:
+- Pruning
+- Scaling of data
+- Using right machine learning algorithm
+
+8). Linear Regression is supervised algorithm where output
+-> a dependent variable is found from one or more
+independent variable
+
+y = a + bx + 4
+a -> intercept , b -> slope
+y -> dependent variable
+x -> independent variable
+
+The cost function/loss function for linear regression
+is : L = Σ (yi - ŷi) yi -> Actual output
+     i=1
+ŷi -> Predicted output
+
+P.T.O
+
+Logestic regression is a supervised algorithm where it
+is mainly used for & classification ; i.e. classifying the
+to data points into their respective classes.
+
+The cost function / Loss function of Logistic regression is :
+L = yi log (ŷi) + (1 - yi) log(1- ŷi)
+
+yi → Actual output
+ŷi → Predicted output
+
+The General algorithm by which cost function are
+minimized are Lasso Regression & Ridge regression
+
+For Lasso : L(Lasso) = Σ(yi - ŷi)^2 + λ(|m|)
+Here is absolute value of m.
+
+For Ridge : L(Ridge) = Σ(yi - ŷi)^2 + λ(m^2)
+→ λ(alpha) is a hyperparameter
+Here is a squared value of m.

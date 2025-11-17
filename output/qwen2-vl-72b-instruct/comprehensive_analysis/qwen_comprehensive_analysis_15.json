@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "2.66%",
+    "word_accuracy": "72.99%",
+    "cer": "16.04%",
+    "wer": "35.17%",
+    "bleu_4": "53.01%",
+    "rouge_l_f1": "75.67%",
+    "bertscore_f1": "38.20%",
+    "extracted_words": 441,
+    "ground_truth_words": 381
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 16.038882138517618,
+      "wer": 35.170603674540686
+    },
+    "bleu_scores": {
+      "bleu_1": 70.97505668934241,
+      "bleu_2": 64.13522549302712,
+      "bleu_3": 58.25551720356288,
+      "bleu_4": 53.01439154674101
+    },
+    "rouge_scores": {
+      "rouge_1": 76.58536585365854,
+      "rouge_2": 68.14159292035397,
+      "rouge_l_recall": 81.62729658792651,
+      "rouge_l_precision": 70.52154195011337,
+      "rouge_l_f1": 75.669099756691
+    },
+    "bertscore": {
+      "precision": 35.600907029478456,
+      "recall": 41.20734908136483,
+      "f1": 38.19951338199513
+    },
+    "traditional_metrics": {
+      "character_accuracy": 2.656400384985563,
+      "word_accuracy": 72.99270072992701,
+      "precision": 35.600907029478456,
+      "recall": 41.20734908136483,
+      "f1_score": 38.19951338199513
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2726,
+    "ground_truth_character_count": 2630,
+    "extracted_word_count": 441,
+    "ground_truth_word_count": 381,
+    "common_word_count": 157
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Bishal Das\nCSE(AJML)\nApplication of ML in Industries 6th\nPART - A\n1. The two most common supervised ...",
+    "first_100_chars_ground_truth": "Name – Bishal Das\nRoll No. 13030822015\n\nPART-A\n\n1. The two most common supervised tasks — \nRegressio..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "bishal das",
+      "ground_truth": "name – bishal das",
+      "similarity": 74.07407407407408
+    },
+    {
+      "line_number": 2,
+      "extracted": "cse(ajml)",
+      "ground_truth": "roll no. 13030822015",
+      "similarity": 6.896551724137931
+    },
+    {
+      "line_number": 3,
+      "extracted": "application of ml in industries 6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "part - a",
+      "ground_truth": "part-a",
+      "similarity": 85.71428571428571
+    },
+    {
+      "line_number": 5,
+      "extracted": "1. the two most common supervised tasks - (a) regression , (b) classification,",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 6,
+      "extracted": "2. the purpose of validation set is to compare model on different train-test-splits,",
+      "ground_truth": "1. the two most common supervised tasks — ",
+      "similarity": 33.33333333333333
+    },
+    {
+      "line_number": 7,
+      "extracted": "3. in a linear regression problem with a single feature variable,",
+      "ground_truth": "regression",
+      "similarity": 26.666666666666668
+    },
+    {
+      "line_number": 8,
+      "extracted": "there are two model parameters - (a) regression coefficient &",
+      "ground_truth": "classification.",
+      "similarity": 23.684210526315788
+    },
+    {
+      "line_number": 9,
+      "extracted": "(b) intercept,",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 10,
+      "extracted": "4. the f1 value of a perfect classifier is 1,",
+      "ground_truth": "2. the purpose of validation set is to compare model on different train-test-splits.",
+      "similarity": 31.007751937984494
+    }
+  ]
+}

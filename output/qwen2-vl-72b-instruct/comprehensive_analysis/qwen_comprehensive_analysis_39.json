@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "17.33%",
+    "word_accuracy": "69.87%",
+    "cer": "28.39%",
+    "wer": "50.09%",
+    "bleu_4": "51.17%",
+    "rouge_l_f1": "71.04%",
+    "bertscore_f1": "34.51%",
+    "extracted_words": 649,
+    "ground_truth_words": 539
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 28.39090143218197,
+      "wer": 50.09276437847866
+    },
+    "bleu_scores": {
+      "bleu_1": 67.4884437596302,
+      "bleu_2": 61.146897741012864,
+      "bleu_3": 55.945144692643666,
+      "bleu_4": 51.17334450944693
+    },
+    "rouge_scores": {
+      "rouge_1": 71.18055555555556,
+      "rouge_2": 63.48547717842323,
+      "rouge_l_recall": 78.29313543599258,
+      "rouge_l_precision": 65.0231124807396,
+      "rouge_l_f1": 71.04377104377105
+    },
+    "bertscore": {
+      "precision": 31.587057010785824,
+      "recall": 38.03339517625232,
+      "f1": 34.51178451178451
+    },
+    "traditional_metrics": {
+      "character_accuracy": 17.327339599509603,
+      "word_accuracy": 69.86531986531986,
+      "precision": 31.587057010785824,
+      "recall": 38.03339517625232,
+      "f1_score": 34.51178451178451
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 3780,
+    "ground_truth_character_count": 3574,
+    "extracted_word_count": 649,
+    "ground_truth_word_count": 539,
+    "common_word_count": 205
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Part A\n\n1> Regression and classification are the two most common supervised learning tasks.\n\n2> The ...",
+    "first_100_chars_ground_truth": "Techno Main Salt Lake (Formerly Techno India, Salt Lake)\nName: Aditri Cahudhuri Sen Roll No.: 130020..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "part a",
+      "ground_truth": "techno main salt lake (formerly techno india, salt lake)",
+      "similarity": 12.903225806451612
+    },
+    {
+      "line_number": 2,
+      "extracted": "",
+      "ground_truth": "name: aditri cahudhuri sen roll no.: 13002022039",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 3,
+      "extracted": "1> regression and classification are the two most common supervised learning tasks.",
+      "ground_truth": "stream: cse (aiml) sec-a",
+      "similarity": 24.299065420560748
+    },
+    {
+      "line_number": 4,
+      "extracted": "",
+      "ground_truth": " subject: application of ml in industry ",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 5,
+      "extracted": "2> the purpose of validation set is to verify whether the model makes accurate predictions, and by to reduce overfitting and hence improve generalisation.",
+      "ground_truth": "semester: sem-6 invigilator's signature: [signature] date: [blank]",
+      "similarity": 13.636363636363635
+    },
+    {
+      "line_number": 6,
+      "extracted": "",
+      "ground_truth": " part – a",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 7,
+      "extracted": "3> there is only one model parameter in a linear regression problem with single feature variable wx+b",
+      "ground_truth": "1.regression and classification are the two most common supervised learning tasks.",
+      "similarity": 21.85792349726776
+    },
+    {
+      "line_number": 8,
+      "extracted": "",
+      "ground_truth": "2.the purposes of validation set is to reduce overfitting and hence improve model generalization.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 9,
+      "extracted": "4> the auc value i.e the area under the roc(receiver operating characteristics) curve of a perfect classifier is 1 square unit",
+      "ground_truth": "3.there is one model parameter in a linear regression problem with single feature variable.",
+      "similarity": 26.72811059907834
+    },
+    {
+      "line_number": 10,
+      "extracted": "",
+      "ground_truth": "4.the auc value the area under the roc(receiver operation characteristics) curve of a perfect classifier is 1 square unit.",
+      "similarity": 0.0
+    }
+  ]
+}

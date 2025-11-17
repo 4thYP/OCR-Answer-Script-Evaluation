@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "23.82%",
+    "word_accuracy": "76.34%",
+    "cer": "12.06%",
+    "wer": "33.27%",
+    "bleu_4": "58.01%",
+    "rouge_l_f1": "77.43%",
+    "bertscore_f1": "38.80%",
+    "extracted_words": 586,
+    "ground_truth_words": 517
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 12.063492063492063,
+      "wer": 33.26885880077369
+    },
+    "bleu_scores": {
+      "bleu_1": 74.40273037542661,
+      "bleu_2": 68.50616979954312,
+      "bleu_3": 62.922032110257575,
+      "bleu_4": 58.00913436539988
+    },
+    "rouge_scores": {
+      "rouge_1": 77.53623188405797,
+      "rouge_2": 70.12711864406779,
+      "rouge_l_recall": 82.59187620889749,
+      "rouge_l_precision": 72.86689419795222,
+      "rouge_l_f1": 77.42520398912059
+    },
+    "bertscore": {
+      "precision": 36.51877133105802,
+      "recall": 41.3926499032882,
+      "f1": 38.803263825929285
+    },
+    "traditional_metrics": {
+      "character_accuracy": 23.818407960199007,
+      "word_accuracy": 76.33726201269265,
+      "precision": 36.51877133105802,
+      "recall": 41.3926499032882,
+      "f1_score": 38.80326382592928
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 3562,
+    "ground_truth_character_count": 3175,
+    "extracted_word_count": 586,
+    "ground_truth_word_count": 517,
+    "common_word_count": 214
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Kewal Raj\nMachine Learning\n(PCC-AIML601)\n(Part-A)\n1. The two most Common tasks are:-\nIn age recognit...",
+    "first_100_chars_ground_truth": "Name:Keyal raj\nRoll No.: 13030823018\nPART-A\n1. The two most common tasks are:\nIn age recognition and..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "kewal raj",
+      "ground_truth": "name:keyal raj",
+      "similarity": 69.56521739130434
+    },
+    {
+      "line_number": 2,
+      "extracted": "machine learning",
+      "ground_truth": "roll no.: 13030823018",
+      "similarity": 10.81081081081081
+    },
+    {
+      "line_number": 3,
+      "extracted": "(pcc-aiml601)",
+      "ground_truth": "part-a",
+      "similarity": 31.57894736842105
+    },
+    {
+      "line_number": 4,
+      "extracted": "(part-a)",
+      "ground_truth": "1. the two most common tasks are:",
+      "similarity": 9.75609756097561
+    },
+    {
+      "line_number": 5,
+      "extracted": "1. the two most common tasks are:-",
+      "ground_truth": "in age recognition and customer-churn analysis.",
+      "similarity": 27.160493827160494
+    },
+    {
+      "line_number": 6,
+      "extracted": "in age recognition and customer churn analysis.",
+      "ground_truth": "2. the purpose of validation test set are:",
+      "similarity": 38.20224719101123
+    },
+    {
+      "line_number": 7,
+      "extracted": "2. the purpose of validation test set are :-",
+      "ground_truth": "after analysing the data through trainset and testing through test set for multiple times to find the final accuracy validation set is needed.",
+      "similarity": 26.881720430107524
+    },
+    {
+      "line_number": 8,
+      "extracted": "after analysing the data through trainset and testing set",
+      "ground_truth": "3. (i) coefficient of the variable,",
+      "similarity": 23.91304347826087
+    },
+    {
+      "line_number": 9,
+      "extracted": "through test set for multiple times to find the final",
+      "ground_truth": "(ii) loss function i.e mean square error (mse)",
+      "similarity": 26.262626262626267
+    },
+    {
+      "line_number": 10,
+      "extracted": "accuracy validation set is needed.",
+      "ground_truth": "(iii) gradient decent.",
+      "similarity": 32.142857142857146
+    }
+  ]
+}

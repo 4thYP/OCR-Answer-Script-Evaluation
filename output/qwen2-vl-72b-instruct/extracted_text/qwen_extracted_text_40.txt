@@ -1,0 +1,77 @@
+Aditya Chakraborty
+AIHL A
+Machine Learning 6th
+(PCC-AIHL601)
+Part A
+1. Customer - Churn Analysis and Amage Recognition
+2. Purpose of a validation set :-
+- after analysing the data through of train set and testing it through test set for multiple times,
+to find the final accuracy validation set is needed.
+3. Co-efficients of the variable
+- Loss function i.e Mean Squared Error (MSE).
+- Gradient Decent
+4. The AUC of a perfect classifier is :-
+y2-y1 = tanθ
+x2-x1
+tanθ ≥ 1
+5. Out of Precision and Recall, recall is more important in Spam Detection.
+Part B
+6. When we get a new dataset we divide the dataset initially into train-test-split i.e. 70-80% of data are kept in initially five training and after training the model, it gets tested on the rest 20-30% data i.e. known as the data set. So, if we sum up the whole train test theory we get the train test split.
+
+Overfitting of buaining data takes place when the
+best data & known data set exceeds the
+number of test data sets, overfitting occurs.
+Overfitting can be prevented by splitting
+up of data during preprocessing in order
+to execute each data set during single
+processes.
+
+Underfitting occurs when the best data set is
+less than the known data set. To avoid
+underfitting, unsupervised learning principle
+is followed in order to reduce this
+phenomenon.
+
+8. Curvual Algorithms that we will have to
+minimize the cost function -
+-> Naive Bayes Algorithm
+-> Random Forest Algorithm
+-> Decision Tree
+
+9. Confusion Matrix - it is said to be the
+generation of matrix data in order to
+analyse the statistical regression
+of a data set so that the model data
+is plotted and can be compared to
+that of a trained model data to
+compare the accuracy between the data
+sets.
+
+False negative rate - 5%
+False positive rate - 3%
+Precision - 92%
+Recall - 0.63
+
+10. ROC Stands fan Radic of a curve and AUC
+stands fan Area under curve, where
+ROC is said to see the gradial point
+of the curve with respect to its
+origin and AUC is the total area of
+the respective curve.
+
+Support
+Vector Machine
+
+Perfect classifier
+
+(SVM)
+
+(Random
+classifier)
+
+Precision Recall trade off - It is the single
+process that is repeated multiple
+times in order to achieve precision
+of the whole data set execution.
+
+V

@@ -1,0 +1,90 @@
+Part A
+
+1> Regression and classification are the two most common supervised learning tasks.
+
+2> The purpose of validation set is to verify whether the model makes accurate predictions, and by to reduce overfitting and hence improve generalisation.
+
+3> There is only one model parameter in a linear regression problem with single feature variable wx+b
+
+4> The AUC value i.e the area under the ROC(Receiver Operating characteristics) curve of a perfect classifier is 1 square unit
+
+5> out of precision and recall, Recall is the more important evaluation metric for a spam e-mail detection system. Since recall refers to the fraction of total no. of positively classified instances that are actually positive while precision quantifies the total no. of positive instances that are classified correctly.
+
+6> Train-test-split refers to the process of 'splitting' or
+partitioning available data into three two
+district sets - the training set and one for
+training the model and the other for
+testing it. Typically, the training set is
+larger then the test set - a e.g. 80-20 20% of
+the set is generally used for training while
+the remaining 20% is used for testing.
+
+1
+'Overfitting' refers to the phenomenon
+which occurs when the model fits its training
+data too well i.e. the varience is very high
+and bias is low leading to poor generalisation
+(accuracy)
+overfitting results, in exceptionally good results
+when the model is tested with known input
+parameters and poor results with unseen data.
+
+'Underfitting' refers to the exact
+opposite phenomena - when the model is not
+able to fit the training data too well is and
+is unable to capture its intricacies. Underfitting
+is a result of high bias and low varience.
+It yields decent results Unlike overfitting
+where the model becomes very complex (e.g.
+a polynomial function or curve) in under fitting
+the model is simple (eg. a straight line). Both
+underfitting and overfitting are disadvantageous
+and we must try to stike a balance so as to
+reduce both and achieve best prediction results
+
+9) Precision = TP
+TP + FP
+
+Recall = TP
+TP + FN
+
+FPR = FP
+FP + TN
+
+The confusion matrix is important because it enables us to obtain a visual representation of the misclassifications and the no. of correctly classified instances which helps us to evaluate model performance. or also aids in the calculation of evaluation metrics such as precision, Recall etc., F1 score etc.
+
+Recall = TP = 10 = 10 = 2 = 0.667
+TP + FN 10 + 5 15 3
+
+Precision = TP = 10 = 10 = 0.76
+TP + FP 10 + 3 13
+
+False Negative Rate (FNR) = FN = 5 = 1 = 0.33
+FN + TP 5 + 10 3
+
+False positive Rate (FPR) = FP = 3 = 3 = .85
+FP + TN 3 + 82 85
+
+10> ROC (Receiver operating characteristics) Curve refers to the graph or curve obtained by plotting the True positive Rate against the False positive Rate. AUC refers to the area enclosed under the ROC curve.
+
+The adjacent graph depict the ROC curve for perfect, practical and random classifiers
+
+TPR
+(True Positive Rate)
+
+perfect classifier
+practical classifier
+random classifier
+45°
+
+(False positive Rate) FPR
+
+11) case (a) represents a case where there is no absolute no overlap between the probability distribution of negative and positive prediction. gt represents implies that there are absolutely zero misclassification (FPR=0) ie both FP and FN are equal to zero Thus (ideal) case (a) represents a perfect classifier with the ROC curve :
+
+AUC=1
+
+case(b) represents a partial overlap which occurs in the case of most practical classifiers indicating that some instances have been incorrectly classified yielding the following ROC curve -
+0<AUC<1
+
+case (c) depicts a case where the both probability distributions are completely superimpose if which occurs in case of a Random classifier yielding the following ROC curve :
+AUC=0.5

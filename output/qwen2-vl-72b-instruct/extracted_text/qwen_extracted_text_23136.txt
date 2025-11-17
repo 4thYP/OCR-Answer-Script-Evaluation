@@ -1,0 +1,102 @@
+Swarnali Bamanik
+13030823136
+Machine Learning Application
+(PCC-AIML-601)
+24/03/25
+
+Part A
+
+1. The two most Common Supervised tasks
+are Regression and classification.
+
+2. The purpose of a validation set
+is used after training the model. It is
+used to evaluate the model performance
+and tuning the model.
+
+3. 2 model parameters are there in
+a linear regression problem with a
+single feature variable.
+
+4. The AUC value of a perfect classifier
+is  1.
+
+5. Precision is more important for a
+spam email detection system.
+
+Part B
+
+6) train-test-split:
+The dataset is splitted into training,
+testing and validation.
+The model trained on training set,
+then the model is tested on unseen
+test dataset.
+
+Overfitting:
+When a model learn noise from
+the training set and model performea
+well in training set but itdoes not-
+perform well on unseen data. This
+indicates overfitting.
+
+underfitting:
+when a model is unable to learn
+from the trainingset and the model
+perform does not well on training
+set. This Calted under-fitting.
+
+Prevent them:
+a) use a good model
+b) Reduce the noise data.
+c) scale the data.
+d) Cross-validation.
+
+g) Confusion matrix:
+Confusion matrix is the insight
+of model performance. It computes
+includes correctly and incorrectly
+predicted data value.
+It is important:
+a) It can check accuracy
+from matrix.
+
+b) It can calculate Entraopy.
+c) It also can calculate precision,
+recall, f-Score.
+
+
+tn=82 precision = TP
+fp =3        = 10   = 10/13
+fn =5        10+3
+TP = 10                 =0.769
+
+
+Recall = TP = 10 =10=0.666
+TP+FN 10+5  15
+false negative rate = FPn = 5 =5
+TP+FN   10+5=13
+false positive rate = FP = 3    = 3
+fp+TN  3+82 = 85
+= 1 - precision = 1 - 0.769 = 0.231 = 0.035
+
+
+7) In machine Learning model,
+Bias is a training terminology
+in machine Learning. it signifies
+a training model performing poorly
+in training phase.
+variance is where the model
+mostly give some error in testing
+phase.
+
+It reduces-
+a) to reduce, it take data that
+it is properly scaled ana the size
+of data is measured
+b) to reduce variance, it can
+use dimansionalty reduction.
+
+Bias-Variance tradeoff is a senario
+where the model perform poorly
+in the trainina phase.

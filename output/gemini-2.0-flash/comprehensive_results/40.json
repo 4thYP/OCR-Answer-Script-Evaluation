@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "12.88%",
+    "word_accuracy": "51.53%",
+    "cer": "32.13%",
+    "wer": "51.90%",
+    "bleu_4": "29.78%",
+    "rouge_l_f1": "57.91%",
+    "bertscore_f1": "28.32%",
+    "extracted_words": 416,
+    "ground_truth_words": 368
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 32.1258341277407,
+      "wer": 51.902173913043484
+    },
+    "bleu_scores": {
+      "bleu_1": 55.04807692307693,
+      "bleu_2": 45.04978710146067,
+      "bleu_3": 36.84074795435285,
+      "bleu_4": 29.784283385080457
+    },
+    "rouge_scores": {
+      "rouge_1": 54.679802955665025,
+      "rouge_2": 40.97859327217125,
+      "rouge_l_recall": 61.684782608695656,
+      "rouge_l_precision": 54.567307692307686,
+      "rouge_l_f1": 57.90816326530612
+    },
+    "bertscore": {
+      "precision": 26.682692307692307,
+      "recall": 30.16304347826087,
+      "f1": 28.316326530612244
+    },
+    "traditional_metrics": {
+      "character_accuracy": 12.878955521132996,
+      "word_accuracy": 51.53061224489795,
+      "precision": 26.682692307692307,
+      "recall": 30.16304347826087,
+      "f1_score": 28.316326530612244
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2421,
+    "ground_truth_character_count": 2099,
+    "extracted_word_count": 416,
+    "ground_truth_word_count": 368,
+    "common_word_count": 111
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "TECHNO MAIN SALT LAKE\n(FORMERLY TECHNO INDIA, SALT LAKE)\nName...Aditya Chakrabarty\nRoll No. ....1302...",
+    "first_100_chars_ground_truth": "Name: Aditya Chakraborty\nRoll No.: 13030822040\n\nPart A\n1. Customer – Churn Analysis and Image Recogn..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "techno main salt lake",
+      "ground_truth": "name: aditya chakraborty",
+      "similarity": 22.22222222222222
+    },
+    {
+      "line_number": 2,
+      "extracted": "(formerly techno india, salt lake)",
+      "ground_truth": "roll no.: 13030822040",
+      "similarity": 21.818181818181817
+    },
+    {
+      "line_number": 3,
+      "extracted": "name...aditya chakrabarty",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "roll no. ....13020822040.",
+      "ground_truth": "part a",
+      "similarity": 12.903225806451612
+    },
+    {
+      "line_number": 5,
+      "extracted": "stream... aiml a",
+      "ground_truth": "1. customer – churn analysis and image recognition",
+      "similarity": 15.151515151515152
+    },
+    {
+      "line_number": 6,
+      "extracted": "subject machine learning",
+      "ground_truth": "2. purpose of a validation set:-",
+      "similarity": 17.857142857142858
+    },
+    {
+      "line_number": 7,
+      "extracted": "(pcc-ainl601)",
+      "ground_truth": "after analysing the data through train set and testing it through test set for multiple times, to find the final accuracy validation set is needed.",
+      "similarity": 5.0
+    },
+    {
+      "line_number": 8,
+      "extracted": ".semester...6th",
+      "ground_truth": "3. ",
+      "similarity": 11.11111111111111
+    },
+    {
+      "line_number": 9,
+      "extracted": "invigilator's signature",
+      "ground_truth": "co-efficents of the variable",
+      "similarity": 31.372549019607842
+    },
+    {
+      "line_number": 10,
+      "extracted": "date.",
+      "ground_truth": "loss function i.e. mean squared error (mse).",
+      "similarity": 12.244897959183673
+    }
+  ]
+}

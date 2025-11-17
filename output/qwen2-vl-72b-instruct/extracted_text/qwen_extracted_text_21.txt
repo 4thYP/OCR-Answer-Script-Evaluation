@@ -1,0 +1,108 @@
+ANURAG SEN
+13030822021
+Application of M.L in industry
+PCC-AIML602
+PART-A
+1) The two most common Supervised task are classification and regression.
+2) Validation dataset is a part of training dataset which is used in cross validation to increase the performance of model, this validation dataset goes under continous testing with the seen or known data, so that the model gets trained properly & performan performs coell on unseen data.
+3) For a single feature variable two model parameters are required [y=mx]
+4) The AUC value of a perfect classifier is 1.
+5) Recall is important for a spam email detection system.
+PART-B
+(6) for a given dataset, train-test split refers to the phenomenon in conhich a certain part or percentage ob dataset is marked as Secondata or known data for the model and a remaining part of dataset fs becomes the testing part for a particular machine learning model. So training the model is done using train dataset here in the model is provided input and it's corresponsding output, so that the model learns the analogy and Thus get trained so it can map the same when there is an unseen sample.
+
+So after trsirng trsining of the model, the time is now to
+check how our model perfoms on test set that is the
+Unknown/ unseen dataser so here input is not mapped to
+output, the machine- pridects it and we check it if the
+modsi.
+predictsd output is similai to the actual data of the
+dataset - This gives ouf accuracy or model perfomsance.
+geneally it's better to split 70%. as trsirning dataser
+and 30 y, as testing dataser. (can be 80-20 too!).
+Overfltitmg means cwhen the model perfoms weii on the
+training dataser but -not on the testing dataser the
+cause is usuaily the model is-to memorizes the training
+dataser as a result perfoms poor on te unseen data. to
+prevett this we have te el reduce noise in training data
+thus elimihae Onwanted fecnrtre vectors and also coe
+must use ensemble techronics liks Random forest to redut
+cl overfilling.
+Underfilling means cohien the model perfoms-well on the
+&. desen't perfoms well in both training and tesibng
+datash- it's undertsit condition. The usual cause is the
+model is not very able and adaprsive to learn the data frcm
+training dataser so perfoms ill in both cases. To prevent
+it we much induce proper fesuire too vecvds and rheir
+nypegarmeters in the dataser and modse (tunig) respectively.
+⑦ As thu term (bias suggests biased towetds a poclicular
+entity, in machine lecorining too the unaerstanding
+renrains the seme thus it means for a particular
+model. The model is biased to some feature vectors
+and not towetds the bthrrs ex a reciltt model
+being biased towetrs a certain fearture Lcrans
+learee thcm preerly but Thc rasf Itern wide un лечем
+as a resutt poor triaining of the model on entire
+dataser thus lastmatly uncleffirting condition   .
+
+to reduce bias coe must choose models and train them
+with both dataset a number of time, coe may use
+cross-validation approach for same also ensemble technique
+give better @ results.
+
+Variance in other hand as name suggest 'anomaly'
+thus uncertain. due to presence of noisy data in dataset
+as a result due to presence of extra feature in dataset-
+leads to overfitting condition.
+It can be reduced by applying feature reduction like
+PCA or SVD also ensemble techniques helps a lot.
+
+Now Bias-variance tradeoff is a phenomenon in which.
+if for a particular model bias increases then variance
+should decrease and vias-versa.
+we can conclude this from our observation of
+overfit-underfit theory thus if bias is high it's underfit
+so definatly the feature vectors are less thus @ variance
+must be low.
+
+Cost function is similar to loss function, it's called
+cost function when there are many feature considered.
+at same time
+
+Confusion matrix is a metrics in machine learning
+through which we can get an idea how to our
+model has classified or predicted in contrast to the
+actual result
+The main utility of
+confusion matrix is to
+find out the accuracy and
+trade of misclassification our
+model goes through dataset
+
+given
+TN = 82
+PP = 3
+FN = 5
+TP = 10
+
+precision = TP / TP + FP = 10 / 10 + 3 = 10 / 13
+
+recall = TP / TP + FN = 10 / 10 + 5 = 10 / 15
+
+false negative rate = FP / FP + TN = 3 / 3 + 82 = 3 / 85
+
+false positive rate = FN / FN + TP = 5 / 5 + 10 = 5 / 15 = 1 / 3
+
+⑧ Cost function is the term used for loss
+function for a model where more than one features
+are considered. it is actually the difference how
+the model deviated from actual result.
+The cost function for Linear Regression
+are L2 -> Ridge Regularization
+L1 -> LASSO Regularization & elastic net
+using it
+Cost-
+can be
+Obtaine
+for Logistic Regression are similar.
+minimize by Least square principle.

@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "46.43%",
+    "word_accuracy": "73.50%",
+    "cer": "23.03%",
+    "wer": "36.92%",
+    "bleu_4": "50.74%",
+    "rouge_l_f1": "76.10%",
+    "bertscore_f1": "37.72%",
+    "extracted_words": 336,
+    "ground_truth_words": 279
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 23.03473491773309,
+      "wer": 36.91756272401434
+    },
+    "bleu_scores": {
+      "bleu_1": 72.02380952380952,
+      "bleu_2": 63.576199880040974,
+      "bleu_3": 56.87159615621812,
+      "bleu_4": 50.74062543952215
+    },
+    "rouge_scores": {
+      "rouge_1": 80.55555555555556,
+      "rouge_2": 65.28925619834712,
+      "rouge_l_recall": 83.87096774193549,
+      "rouge_l_precision": 69.64285714285714,
+      "rouge_l_f1": 76.09756097560975
+    },
+    "bertscore": {
+      "precision": 34.523809523809526,
+      "recall": 41.57706093189964,
+      "f1": 37.72357723577236
+    },
+    "traditional_metrics": {
+      "character_accuracy": 46.432552954292085,
+      "word_accuracy": 73.4959349593496,
+      "precision": 34.523809523809526,
+      "recall": 41.57706093189964,
+      "f1_score": 37.72357723577235
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 1950,
+    "ground_truth_character_count": 1645,
+    "extracted_word_count": 336,
+    "ground_truth_word_count": 279,
+    "common_word_count": 116
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Shahan Nayak\n13030822198\nCSE(AIML)\nAfflication of Machine learning in industries (PCC-AIML601) 6th\n0...",
+    "first_100_chars_ground_truth": "Name: Shohan Nayak\nRoll No.: 13030823138\n\nPart A\nClassification in Regression are the two most commo..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "shahan nayak",
+      "ground_truth": "name: shohan nayak",
+      "similarity": 73.33333333333333
+    },
+    {
+      "line_number": 2,
+      "extracted": "13030822198",
+      "ground_truth": "roll no.: 13030823138",
+      "similarity": 56.25
+    },
+    {
+      "line_number": 3,
+      "extracted": "cse(aiml)",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "afflication of machine learning in industries (pcc-aiml601) 6th",
+      "ground_truth": "part a",
+      "similarity": 11.594202898550725
+    },
+    {
+      "line_number": 5,
+      "extracted": "09/2/2025",
+      "ground_truth": "classification in regression are the two most common supervised tasks.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 6,
+      "extracted": "",
+      "ground_truth": "to check the accuracy of the prediction of a validation set.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 7,
+      "extracted": "(part a)",
+      "ground_truth": "there are two model parameters are there in a linear regression problem with a single feature variable.",
+      "similarity": 10.81081081081081
+    },
+    {
+      "line_number": 8,
+      "extracted": "",
+      "ground_truth": "auc value of a perfect classifier is 90-100%.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 9,
+      "extracted": "1> classification of regression are the two most common supervised tasks.",
+      "ground_truth": "precision is more important for a spam email detection system.",
+      "similarity": 23.703703703703706
+    },
+    {
+      "line_number": 11,
+      "extracted": "2> to check the accuracy of the prediction of a validation set.",
+      "ground_truth": "part b",
+      "similarity": 2.898550724637681
+    }
+  ]
+}
