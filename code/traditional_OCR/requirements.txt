@@ -1,0 +1,36 @@
+# requirements for the TrOCR notebook and related evaluation scripts
+# These packages are available on PyPI and can be installed via:
+#   python -m pip install -r requirements.txt
+# On Windows, activate your virtualenv first (e.g. newvenv\Scripts\Activate.ps1)
+
+# Core deep learning + HuggingFace
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.98
+tokenizers>=0.14.0
+
+# Image processing
+Pillow>=9.0.0
+opencv-python>=4.7.0        # for cv2
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# PDF / Document handling
+PyMuPDF>=1.22.0              # provides fitz (optional but useful)
+pdf2image>=1.16.3
+python-docx>=0.8.11          # provides docx
+
+# Metrics + NLP
+jiwer>=3.0.0
+rouge-score>=0.1.2
+bert-score>=0.3.11
+sacrebleu>=2.3.1
+nltk>=3.8.1
+
+# Data handling
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.65.0

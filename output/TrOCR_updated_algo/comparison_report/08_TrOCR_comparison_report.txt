@@ -1,0 +1,212 @@
+OCR ACCURACY REPORT (TrOCR - Handwritten)
+============================================================
+" " I did not go out . "
+" " I understand it
+a b.a.a.a.b.a.a.a.a.a
+techno main Salt Lake .
+" Formerly , techno India , Salt Lake ) ... .
+" 51, " D. 0 )
+Nameafter graduating with the
+" " K. " -
+Roll No. " 12030822008____0000sroom .CEA.A.200pick
+1952 53
+2 Part A.
+# the most common expenials leaving ducks are- Classifications ,
+0,
+mini bottoms . " Let
+" " " ... " " ... . "
+3 Language judgement personnel in CO ) and this form ( or just the
+" 7. ) " 5.5 :
+a member of the Spanish Spanish American diplomat
+# 0 -
+This is now noxious mind since its return to
+and it was the best of the best of the best of the best of the best of the
+0.
+Part B.
+" 2"
+" I'll get it to it ... ... . "
+0 1
+" I'll #
+a b.i.i.e.e.e.e.e.e.e
+" I'm not
+25 I ...
+0 0
+" F. " " I ) I ) I ) I ) I ) I say
+" "
+
+' 50
+O.Hackeray - # PP.P.P.S. TN.
+2 2 Rheugian . "
+0-Tp-t.fp.
+2nd century . Sir. Fitzroydon
+Recall - -
+. " TP +4 FN. "
+for COVID 19 " They are the first time old .
+" " " " " " "
+" In question classification problem , IN.82 " ... .
+" What it'll be it into it . It'll be sure it into it . It's
+" "
+away ,
+" "
+# F.N.E.S.S.S.P.000"0005000
+" " " " " - - ... if , you get you got your way . "
+" 0" " 1.2 1.
+Tp.10 .
+a b.d.
+2 1 0
+" Precision " . " not # " is . "
+also also
+TPTF P.
+0/
+" " TPP + FN.
+2 1 5.
+0 3 .
+5 4 10
+I 285
+" 34482 - 55. "
+" " FP4TN.
+3482 3.3
+" " I " - #
+" "
+itself nine - it - are
+# the I say that
+' 69 ' 70
+0 1/
+# you do
+# 1/ 1,
+" 2/2 "2 -2
+" 550, "
+# I'll # question .
+" Blair's wife .
+" " P. , ,
+
+to enhance
+0-
+25 I 55
+0 0 0 0 0 0 0 0 0
+0 0000 0,000
+1 0
+overfitting
+0 0
+non-linear relations .
+" " 0" " 0. 0.5. 0.2 .
+" ... . "
+0.T.
+0.000000000000000000000000000000000000000000000000000000
+" if - say " , "
+' Underfitting .
+displaystyle x. y. 1 y. y. y.
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+as Plays to Present .
+0 0
+0 !
+42' 58
+0 0
+# on - " " ... " "
+" " " " " " " " " " - - NOTING your
+" " " - I ) ... . AT.
+
+1 734
+" It is said in
+" Highway .
+Low Variance
+25 C.
+0 0
+Loui Bias .
+" it ,
+" Brian . " D.000 -
+a b c.m.m.m.r.r.r.r.r.
+" I say .000
+1 000
+Colour , bias " and money
+0 1
+" " Currie .
+" " ... " " " # ... . " I know , my ,
+a member of the House of Representatives of Representatives from the House of Representatives
+36' 58 )
+" " " I ask ? " We know
+" " 0.2 "
+" " ... " " ... . " It is now out of
+" " I understand that it was not yet
+" " ... " ... " " It's . " ... join . "
+" "
+" Random Classifier ( ( O.S.A.C.S. ) . "
+" " " U. ) " I'm ... . " I'm sure . " . "
+" 50
+52 28 S. 55 E 52 467 S. 5. W 52 467 W 52 4
+" 50
+" " " " Taper . " ...
+32 3/
+RECAIL " T.N.
+c.r.Tp. FN.
+0 0 0 0 0 0 0 0
+
+============================================================
+Ground Truth:
+Name: Debopriya Lahiri
+Roll No.: 13030822008
+PART A
+1. Two most common supervised learning tasks are - Classification & Regression.
+2. The response of validation set is to reduce the problem of overfitting and under fitting and by improving generalization it generalization error.
+3. There are only one model parameter (Θ) and bias term (Θ0) with a single feature Variable.
+4. AUC value of perfect classification is 1.
+5. Recall is more important for Spam detection system.
+PART B
+9. Confusion Matrix :- Confusion Matrix is a comprehensive model evaluation on performance measure metrix which is visualised as a tabular form and counts the number of actual outputs versus perdicted output.
+TR - True Positive is model is predicted positive classes correctly.
+FP- False Positive is model predicted positive but actual is negetive (Type 1 error)
+FN – False negetive is model predicted negetive but actual is positive. (Type 2 error)
+TN- True negetive is model predicted negetive classes correctly
+TP+FP = Total +ve predictions.
+FN+ TN =Total -ve predictions.
+TP+ FP+FN+TN = Total predictions.
+TP+FN = Total actual positives.
+FP+TN = Total actual negetives.
+Importance :-
+Confusion matrix provides how the model is performing in unseen data, helps to evaluate it’s generalization Capability.
+It helps to calculate other performance measure metrics.
+Accuracy =
+Precision =
+Recall =
+ROC Curve = Plot of TPR and FPR at different threshold.
+PR Curve:-  Curve of Precision & Recall.
+In given classification problem, TN = 82,
+FP = 3,
+FN = 5,
+TP = 10.
+Precision =                             =                            =
+Recall =                             =                            =
+False Negetive rate =                           =                            =                   =                 =
+False Positive Rate =                              =                            =
+6 .) Train – Test Split :- Train – Test Split is defined by dividing the whole dataset into two portions .
+Train Set :- For train the data to the model . (higher in ratio)
+Test Set :- For testing the model predictions and performance in unseen data. (smaller in ratio ) . (70:30)
+It is generally used in Supervised learning algorithms where we train the model by labelled data and test the model by the providing the unlabelled data and compare the actual and predicted output.
+. from sklearn . model selection import train test_split .
+Overfitting :- Overfitting occurs when model performs good in training Set and poor in testing Set.
+. In overfitting model tries to memorize the data rather than generalizing.
+. In overfitting model has high variance.
+. Model tries to is too Complex that it tries to predict all points in training but done to high variance it fails to predict unseen data.
+Overfitting
+Underfitting :- . Underfitting occurs when model performs poor on training and testing data.
+. In underfitting model doesnot able to extract the true patterns of data and have its own path (far from actual output).
+. There, model has high bias and low variance.
+. Class imbalance leads Same thing high bias and
+. Model is to simple or linear and cann’t capture non-linear relations.
+Underfitting
+Ways to Prevent.
+Use ensemble learning techniques (Bagging & Boosting).
+Use Regularization methods (Ridge, Lasso, Elastic Net)
+Standardization and Normalization.
+For Overfitting, do feature Selection and for under fitting use kernel trick (SVM) and model with non – linear kernels.
+7.) Bias :- Bais refers to the difference between actual and predicted output. It defines how close the generalizing hypothesis is of true hypothesis. (Low - Bias:- Near to actual value). (High - Bias: Far from actual, happens due to class imbalance sparse dataset).
+Variance :- Variance refers how model predictions change by changing the feature vectors. It refers how scatter the predicted values are (Low Variance  datas (predicted are not scatter (close to each other)). (High Variance  predicted points are scattered).
+Way to Reduce Them :-
+To reduce bias, we need to balance the dataset by doing oversampling of minor class and under sampling of major class. Do ensemble methods like random forest, bagging.
+To reduce variance we need to do boosting techniques. We do feature Selection (Regularization techniques).
+Bias Variance Tradeoff
+ROC Curve :- ROC (Rectif Reciever Operating Characteristics)
+refers to the graph of TPR vs FPR at different threasolds.
+AUC : AUC (Area under Curve) refers to the area of ROC Curve .
+Precision Recall Tradeoff    It defines by the Curve of Precision and Recall. It plots precision and recalls.
+Precision (Specificity) & Recall (Sentexity) are inversely proportions.

@@ -1,0 +1,115 @@
+OCR ACCURACY REPORT (TrOCR - Handwritten)
+============================================================
+25I 25
+1999 T.000
+L 70
+techno main Salt Lake .
+( Formerly techno india , Salt Lake )
+Namie .AYUSH KUMAR.DUBEY000020000080015005000
+Roll No. - ...33008220.14.000stream B. TECH-CSE
+0 0
+" What is it is it . " It is it is still
+They are intercept and co-efficient . "
+" " I'll get you know it so you . "
+# 50
+" 51.
+detection .
+" It's
+
+part-B.
+" G. Train-tart-splat is a model that is used to divide
+the dataset into training dataset and testing dating
+Information : From shearn , model , selection , infant
+the best of the highly small single best selling later ever
+by friend upon brother phenomenologist , who
+0 1 .
+42. " J.
+data in a distant bout fail on real world data ... .
+25Fi 2
+" It
+HelpLearn to editCommunity portalRecent changes
+6. "
+20s :
+" W.
+0/ 3-
+2 Prevention :
+0. S.
+" P running .
+" Using right machine learning algorithm
+" # " O.S.S.S.Calling of data ...
+" I am businessfully , saying is ,supervised algorithm where output
+5. E.
+play dependent variable in found from smaller
+indefependent variable .
+6. 7.
+0 :
+1' 22
+" I miss
+" C. -
+" Y - at.box # 4 . "
+a statement , b. slope .
+"Y - Dr dependent variable .
+xxx x
+" U.C.
+X Independent variable .
+The cost function , function for linear regression ;
+" M. " L. - " - " Ex-girl
+Yi Y Actual outfit ... .
+G.F. 2 . Predicted output
+2 . " PET.O
+
+0 0 0-f.000
+" Logistic regression is a referenced algorithm where it
+If is mainly used for a clarification ; he clarifying the
+to
+0 1/
+L - YE. Log. ( G. ) 4 ( 1. - ya.log
+Yes ? Actual output .
+60" N.
+Yi-Predicted output .
+" Here is absolute value of m. '
+& Halffhal is a hyperparameter .
+Here is a squared value of m.
+topper
+
+============================================================
+Ground Truth:
+Name: AYUSH KUMAR DUBEY
+Roll No.: 13030822014
+Part A
+1. Two most common supervised tasks are -
+Regression
+Classification
+3. There are 2 model parameters in a linear regression problem with a single feature variable.
+They are intercept and co-efficient.
+2. The main purpose of validation set is that it is used to evaluate the performance of a model.
+5. Precision is more important for a spam e-mail detection.
+4. The AUC value of a perfect classifier is: 1.
+Part B
+6). Train-test-split is a model that is used to divide the dataset into training dataset and testing dataset
+Implementation: From sklearn.model_selection, import train_test_split, x_train, x_test, y_train, y_test = train_test_split (x, y, test_size = 0.2, random_state = 42)
+Overfitting is a problem that occurs in a training model where it can predict accurately for data in a dataset but fail on real world data.
+Underfitting makes the training model such way that it can predict accurately for real world data
+Prevention:
+Prunning,
+Using right machine learning algorithm,
+Scaling of data.
+8). Linear Regression is supervised algorithm where output a dependent variable is found from one or more independent variable
+a → intercept, b → slope
+  y → dependent variable
+  x → independent variable
+The cost function / Loss function for linear regression is :
+Logistic regression is a supervised algorithm where it is mainly used for the classification, i.e. classifying the data into their respective classes.
+The cost function / loss function of Logistic regression is:
+The General Algorithm by which lort function are minimized are Lasss Regression & Ridge regression
+Here is absolute value of .
+Here is a squared value of .
+
+============================================================
+METRICS (errors shown as percentages):
+
+Char Error rate (%): 65.9562
+Word Error rate (%): 96.7347
+Bleu Error rate (%): 83.7945
+Rouge Error rate (%): 63.7343
+Bert Error rate (%): 114.4815
