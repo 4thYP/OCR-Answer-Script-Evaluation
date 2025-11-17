@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "76.06%",
+    "word_accuracy": "91.09%",
+    "cer": "15.54%",
+    "wer": "16.47%",
+    "bleu_4": "80.11%",
+    "rouge_l_f1": "91.31%",
+    "bertscore_f1": "39.38%",
+    "extracted_words": 478,
+    "ground_truth_words": 431
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 15.53864637565078,
+      "wer": 16.473317865429234
+    },
+    "bleu_scores": {
+      "bleu_1": 87.23849372384937,
+      "bleu_2": 84.56356204903123,
+      "bleu_3": 82.22182320393985,
+      "bleu_4": 80.11292535856134
+    },
+    "rouge_scores": {
+      "rouge_1": 94.70899470899471,
+      "rouge_2": 90.1639344262295,
+      "rouge_l_recall": 96.2877030162413,
+      "rouge_l_precision": 86.82008368200836,
+      "rouge_l_f1": 91.30913091309131
+    },
+    "bertscore": {
+      "precision": 37.44769874476987,
+      "recall": 41.53132250580047,
+      "f1": 39.38393839383939
+    },
+    "traditional_metrics": {
+      "character_accuracy": 76.0600874691006,
+      "word_accuracy": 91.0891089108911,
+      "precision": 37.44769874476987,
+      "recall": 41.53132250580047,
+      "f1_score": 39.38393839383939
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2762,
+    "ground_truth_character_count": 2509,
+    "extracted_word_count": 478,
+    "ground_truth_word_count": 431,
+    "common_word_count": 179
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Harshamkit Raj\n13030822007\nCSE(CAL & ML)\nApplication of Machine Learning in Industries (PCC-AIML601)...",
+    "first_100_chars_ground_truth": "Name: Harshankit Raj\nRoll No.: 13030822007\n\nPart A:\nThe two most common supervised tasks are classif..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "harshamkit raj",
+      "ground_truth": "name: harshankit raj",
+      "similarity": 76.47058823529412
+    },
+    {
+      "line_number": 2,
+      "extracted": "13030822007",
+      "ground_truth": "roll no.: 13030822007",
+      "similarity": 68.75
+    },
+    {
+      "line_number": 3,
+      "extracted": "cse(cal & ml)",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "application of machine learning in industries (pcc-aiml601) 6th",
+      "ground_truth": "part a:",
+      "similarity": 14.285714285714285
+    },
+    {
+      "line_number": 5,
+      "extracted": "part a:",
+      "ground_truth": "the two most common supervised tasks are classification and regression.",
+      "similarity": 15.384615384615385
+    },
+    {
+      "line_number": 6,
+      "extracted": "1) the two most common supervised tasks are classification and regression.",
+      "ground_truth": "the purpose of validation set is to validate the performance & check the accuracy of the given trained model.",
+      "similarity": 24.043715846994534
+    },
+    {
+      "line_number": 7,
+      "extracted": "2) the purpose of validation set is to validate the performance & check the accuracy of the given trained model.",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 8,
+      "extracted": "3)",
+      "ground_truth": "for a perfect classifier the auc value is always 1.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 9,
+      "extracted": "4) for a perfect classifier the auc value is always 1.",
+      "ground_truth": "out of precision & recall, recall is more important for a spam email detection system because it gives the ratio of true positive by true positive + false negative which gives the actual true value.",
+      "similarity": 27.77777777777778
+    },
+    {
+      "line_number": 10,
+      "extracted": "5) out of precision & recall is more important because for a spam email detection system it gives the ratio of true positive by true positive + false negative which gives the actual value of true value.",
+      "ground_truth": "",
+      "similarity": 0.0
+    }
+  ]
+}

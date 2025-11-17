@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "13.58%",
+    "word_accuracy": "49.53%",
+    "cer": "44.00%",
+    "wer": "64.52%",
+    "bleu_4": "29.21%",
+    "rouge_l_f1": "59.56%",
+    "bertscore_f1": "31.66%",
+    "extracted_words": 359,
+    "ground_truth_words": 279
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 43.99756246191347,
+      "wer": 64.51612903225806
+    },
+    "bleu_scores": {
+      "bleu_1": 59.888579387186624,
+      "bleu_2": 47.34595614890961,
+      "bleu_3": 37.797697013822216,
+      "bleu_4": 29.211026209674788
+    },
+    "rouge_scores": {
+      "rouge_1": 70.13888888888889,
+      "rouge_2": 45.867768595041326,
+      "rouge_l_recall": 68.10035842293907,
+      "rouge_l_precision": 52.92479108635098,
+      "rouge_l_f1": 59.56112852664577
+    },
+    "bertscore": {
+      "precision": 28.133704735376046,
+      "recall": 36.200716845878134,
+      "f1": 31.661442006269592
+    },
+    "traditional_metrics": {
+      "character_accuracy": 13.584905660377359,
+      "word_accuracy": 49.52978056426332,
+      "precision": 28.133704735376046,
+      "recall": 36.200716845878134,
+      "f1_score": 31.661442006269596
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2069,
+    "ground_truth_character_count": 1645,
+    "extracted_word_count": 359,
+    "ground_truth_word_count": 279,
+    "common_word_count": 101
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "TECHNO MAIN SALT LAKE\n(FORMERLY TECHNO INDIA, SALT LAKE)\nName. Shohan Nayak.\nRoll No.13.0 3 0 8.2 3 ...",
+    "first_100_chars_ground_truth": "Name: Shohan Nayak\nRoll No.: 13030823138\n\nPart A\nClassification in Regression are the two most commo..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "techno main salt lake",
+      "ground_truth": "name: shohan nayak",
+      "similarity": 46.15384615384615
+    },
+    {
+      "line_number": 2,
+      "extracted": "(formerly techno india, salt lake)",
+      "ground_truth": "roll no.: 13030823138",
+      "similarity": 21.818181818181817
+    },
+    {
+      "line_number": 3,
+      "extracted": "name. shohan nayak.",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "roll no.13.0 3 0 8.2 3 1 3.8.",
+      "ground_truth": "part a",
+      "similarity": 11.428571428571429
+    },
+    {
+      "line_number": 5,
+      "extracted": "stream. cse(aml)",
+      "ground_truth": "classification in regression are the two most common supervised tasks.",
+      "similarity": 16.27906976744186
+    },
+    {
+      "line_number": 6,
+      "extracted": "subject afflication of machine learning \"sindastories (pec=f/ml 601)",
+      "ground_truth": "to check the accuracy of the prediction of a validation set.",
+      "similarity": 34.375
+    },
+    {
+      "line_number": 7,
+      "extracted": "invigilator's signature",
+      "ground_truth": "there are two model parameters are there in a linear regression problem with a single feature variable.",
+      "similarity": 25.396825396825395
+    },
+    {
+      "line_number": 8,
+      "extracted": "part a",
+      "ground_truth": "auc value of a perfect classifier is 90-100%.",
+      "similarity": 19.607843137254903
+    },
+    {
+      "line_number": 9,
+      "extracted": "...semester....",
+      "ground_truth": "precision is more important for a spam email detection system.",
+      "similarity": 20.77922077922078
+    },
+    {
+      "line_number": 10,
+      "extracted": "6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    }
+  ]
+}

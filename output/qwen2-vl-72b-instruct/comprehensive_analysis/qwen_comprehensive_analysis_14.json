@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "39.69%",
+    "word_accuracy": "70.74%",
+    "cer": "42.15%",
+    "wer": "62.31%",
+    "bleu_4": "50.49%",
+    "rouge_l_f1": "71.05%",
+    "bertscore_f1": "41.31%",
+    "extracted_words": 379,
+    "ground_truth_words": 260
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 42.15384615384615,
+      "wer": 62.30769230769231
+    },
+    "bleu_scores": {
+      "bleu_1": 61.74142480211082,
+      "bleu_2": 57.44048636242519,
+      "bleu_3": 53.90751336916695,
+      "bleu_4": 50.49183598583018
+    },
+    "rouge_scores": {
+      "rouge_1": 89.1891891891892,
+      "rouge_2": 76.99115044247787,
+      "rouge_l_recall": 87.3076923076923,
+      "rouge_l_precision": 59.894459102902374,
+      "rouge_l_f1": 71.04851330203442
+    },
+    "bertscore": {
+      "precision": 34.82849604221636,
+      "recall": 50.76923076923077,
+      "f1": 41.31455399061032
+    },
+    "traditional_metrics": {
+      "character_accuracy": 39.68627450980392,
+      "word_accuracy": 70.73552425665102,
+      "precision": 34.82849604221636,
+      "recall": 50.76923076923077,
+      "f1_score": 41.31455399061033
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2204,
+    "ground_truth_character_count": 1659,
+    "extracted_word_count": 379,
+    "ground_truth_word_count": 260,
+    "common_word_count": 132
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "AYUSH KUMAR DUBEY\n13030822014 B.TECH CSE (AIML-A)\nAfflication of Machine Learning 6th\nin Industries\n...",
+    "first_100_chars_ground_truth": "Name: AYUSH KUMAR DUBEY\nRoll No.: 13030822014\n\nPart A\n\n1. Two most common supervised tasks are -\nReg..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "ayush kumar dubey",
+      "ground_truth": "name: ayush kumar dubey",
+      "similarity": 85.0
+    },
+    {
+      "line_number": 2,
+      "extracted": "13030822014 b.tech cse (aiml-a)",
+      "ground_truth": "roll no.: 13030822014",
+      "similarity": 42.30769230769231
+    },
+    {
+      "line_number": 3,
+      "extracted": "afflication of machine learning 6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "in industries",
+      "ground_truth": "part a",
+      "similarity": 10.526315789473683
+    },
+    {
+      "line_number": 5,
+      "extracted": "part-a",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 6,
+      "extracted": "1). two most common supervisoried tasks are -",
+      "ground_truth": "1. two most common supervised tasks are -",
+      "similarity": 95.34883720930233
+    },
+    {
+      "line_number": 7,
+      "extracted": ". regression",
+      "ground_truth": "regression",
+      "similarity": 90.9090909090909
+    },
+    {
+      "line_number": 8,
+      "extracted": ". classification",
+      "ground_truth": "classification",
+      "similarity": 93.33333333333333
+    },
+    {
+      "line_number": 9,
+      "extracted": "3). there 2 model parameters in a linear regression",
+      "ground_truth": "3. there are 2 model parameters in a linear regression problem with a single feature variable.",
+      "similarity": 68.96551724137932
+    },
+    {
+      "line_number": 10,
+      "extracted": "problem with a single feature variable.",
+      "ground_truth": "they are intercept and co-efficient.",
+      "similarity": 29.333333333333332
+    }
+  ]
+}

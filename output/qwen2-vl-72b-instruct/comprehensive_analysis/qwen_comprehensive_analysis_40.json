@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "37.77%",
+    "word_accuracy": "77.81%",
+    "cer": "14.01%",
+    "wer": "23.64%",
+    "bleu_4": "59.08%",
+    "rouge_l_f1": "81.46%",
+    "bertscore_f1": "42.30%",
+    "extracted_words": 398,
+    "ground_truth_words": 368
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 14.013346043851287,
+      "wer": 23.641304347826086
+    },
+    "bleu_scores": {
+      "bleu_1": 78.64321608040201,
+      "bleu_2": 71.62840184478019,
+      "bleu_3": 64.90118065691041,
+      "bleu_4": 59.07698746836005
+    },
+    "rouge_scores": {
+      "rouge_1": 79.80295566502463,
+      "rouge_2": 69.41896024464832,
+      "rouge_l_recall": 84.78260869565217,
+      "rouge_l_precision": 78.39195979899498,
+      "rouge_l_f1": 81.46214099216711
+    },
+    "bertscore": {
+      "precision": 40.7035175879397,
+      "recall": 44.02173913043478,
+      "f1": 42.297650130548305
+    },
+    "traditional_metrics": {
+      "character_accuracy": 37.7741861002078,
+      "word_accuracy": 77.80678851174935,
+      "precision": 40.7035175879397,
+      "recall": 44.02173913043478,
+      "f1_score": 42.297650130548305
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2233,
+    "ground_truth_character_count": 2099,
+    "extracted_word_count": 398,
+    "ground_truth_word_count": 368,
+    "common_word_count": 162
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Aditya Chakraborty\nAIHL A\nMachine Learning 6th\n(PCC-AIHL601)\nPart A\n1. Customer - Churn Analysis and...",
+    "first_100_chars_ground_truth": "Name: Aditya Chakraborty\nRoll No.: 13030822040\n\nPart A\n1. Customer – Churn Analysis and Image Recogn..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "aditya chakraborty",
+      "ground_truth": "name: aditya chakraborty",
+      "similarity": 85.71428571428571
+    },
+    {
+      "line_number": 2,
+      "extracted": "aihl a",
+      "ground_truth": "roll no.: 13030822040",
+      "similarity": 14.814814814814813
+    },
+    {
+      "line_number": 3,
+      "extracted": "machine learning 6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "(pcc-aihl601)",
+      "ground_truth": "part a",
+      "similarity": 21.052631578947366
+    },
+    {
+      "line_number": 5,
+      "extracted": "part a",
+      "ground_truth": "1. customer – churn analysis and image recognition",
+      "similarity": 10.714285714285714
+    },
+    {
+      "line_number": 6,
+      "extracted": "1. customer - churn analysis and amage recognition",
+      "ground_truth": "2. purpose of a validation set:-",
+      "similarity": 34.146341463414636
+    },
+    {
+      "line_number": 7,
+      "extracted": "2. purpose of a validation set :-",
+      "ground_truth": "after analysing the data through train set and testing it through test set for multiple times, to find the final accuracy validation set is needed.",
+      "similarity": 23.333333333333332
+    },
+    {
+      "line_number": 8,
+      "extracted": "- after analysing the data through of train set and testing it through test set for multiple times,",
+      "ground_truth": "3. ",
+      "similarity": 1.9607843137254901
+    },
+    {
+      "line_number": 9,
+      "extracted": "to find the final accuracy validation set is needed.",
+      "ground_truth": "co-efficents of the variable",
+      "similarity": 32.5
+    },
+    {
+      "line_number": 10,
+      "extracted": "3. co-efficients of the variable",
+      "ground_truth": "loss function i.e. mean squared error (mse).",
+      "similarity": 21.052631578947366
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+Shahan Nayak
+13030822198
+CSE(AIML)
+Afflication of Machine learning in industries (PCC-AIML601) 6th
+09/2/2025
+
+(Part A)
+
+1> Classification of Regression are the two most common supervised tasks.
+
+2> To check the accuracy of the prediction of a validation set.
+
+3> There are two model parameters are there in a linear regression problem with a single feature variable.
+
+4> AUC value of a perfect classifier is 90-100%.
+
+5> Precision is more important for a spam email detection system.
+
+[Part-B]
+
+6> train-test-split is a method available in sklearn that we used to split the data into training set and testing set. we use 30% of the total data.
+
+underfitting and overfitting :-
+
+overfitting is a phenomenon where the machine learning model predicts too well on the training data that is seen data. That does not work well on unseen data that is testing data.
+
+where underfitting happens when the model performs badly on the training data that is the seen data that predicts badly too and well on the unseen data that is testing dataset.
+
+7> preventiontechnique.
+i) use of suitable model
+ii) Scale the data
+
+③ reduce the moice from the data
+④ Cross - validation.
+
+f) bias -> Bias is a terminology in machine learning it
+is signifies from a machine learning model predecting
+for poorly in the straining phase.
+Basically the error in the straining phase called @ as
+bias.
+
+variance -> variance is where the model & gives error
+in the testing phase.
+- To reduce it we take data that is properly encoded,
+Scaled and *the size of the data is moderate.
+- bias-variance tradeoff is a scenario where if the model
+per form & poorly on the training phase.
+
+g) Confusion matrix is the insight of model performance: It
+include correctly predicted and incorrectly predicted data
+value.
+
+Predicted
+TP | FN
+FP | TN
+
+TN=82 , FP=3 , FN=5 , TP=10
+
+Precision 10/10+3 = 10/13
+recall    10/10+5 = 10/15
+
+false negative rate = 5/15 = 1/3
+false positive rate = 3/82+3 = 3/85.

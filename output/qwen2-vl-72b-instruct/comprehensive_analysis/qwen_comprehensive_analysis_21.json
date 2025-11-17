@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "39.94%",
+    "word_accuracy": "70.16%",
+    "cer": "16.35%",
+    "wer": "33.87%",
+    "bleu_4": "54.57%",
+    "rouge_l_f1": "73.90%",
+    "bertscore_f1": "31.34%",
+    "extracted_words": 844,
+    "ground_truth_words": 815
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 16.350710900473935,
+      "wer": 33.86503067484662
+    },
+    "bleu_scores": {
+      "bleu_1": 75.11848341232228,
+      "bleu_2": 66.74897798779634,
+      "bleu_3": 60.18544211738358,
+      "bleu_4": 54.56650260643102
+    },
+    "rouge_scores": {
+      "rouge_1": 71.62534435261708,
+      "rouge_2": 60.75949367088608,
+      "rouge_l_recall": 75.21472392638037,
+      "rouge_l_precision": 72.6303317535545,
+      "rouge_l_f1": 73.89993972272453
+    },
+    "bertscore": {
+      "precision": 30.80568720379147,
+      "recall": 31.901840490797547,
+      "f1": 31.34418324291742
+    },
+    "traditional_metrics": {
+      "character_accuracy": 39.935691318327976,
+      "word_accuracy": 70.16274864376129,
+      "precision": 30.80568720379147,
+      "recall": 31.901840490797547,
+      "f1_score": 31.344183242917424
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 4690,
+    "ground_truth_character_count": 4654,
+    "extracted_word_count": 844,
+    "ground_truth_word_count": 815,
+    "common_word_count": 260
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "ANURAG SEN\n13030822021\nApplication of M.L in industry\nPCC-AIML602\nPART-A\n1) The two most common Supe...",
+    "first_100_chars_ground_truth": "Techno Main Salt Lake (Formerly Techno India, Salt Lake)\nName: Anurag Sen Roll No.: 13002022021 \nStr..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "anurag sen",
+      "ground_truth": "techno main salt lake (formerly techno india, salt lake)",
+      "similarity": 18.181818181818183
+    },
+    {
+      "line_number": 2,
+      "extracted": "13030822021",
+      "ground_truth": "name: anurag sen roll no.: 13002022021 ",
+      "similarity": 36.0
+    },
+    {
+      "line_number": 3,
+      "extracted": "application of m.l in industry",
+      "ground_truth": "stream: cse (aiml) sec-a",
+      "similarity": 11.11111111111111
+    },
+    {
+      "line_number": 4,
+      "extracted": "pcc-aiml602",
+      "ground_truth": " subject: application of ml in industry ",
+      "similarity": 23.52941176470588
+    },
+    {
+      "line_number": 5,
+      "extracted": "part-a",
+      "ground_truth": "semester: sem-6 invigilator's signature: [signature] date: [blank]",
+      "similarity": 11.11111111111111
+    },
+    {
+      "line_number": 6,
+      "extracted": "1) the two most common supervised task are classification and regression.",
+      "ground_truth": " part-a",
+      "similarity": 12.5
+    },
+    {
+      "line_number": 7,
+      "extracted": "2) validation dataset is a part of training dataset which is used in cross validation to increase the performance of model, this validation dataset goes under continous testing with the seen or known data, so that the model gets trained properly & performan performs coell on unseen data.",
+      "ground_truth": "the two most common supervised task are classification and regression.",
+      "similarity": 12.290502793296088
+    },
+    {
+      "line_number": 8,
+      "extracted": "3) for a single feature variable two model parameters are required [y=mx]",
+      "ground_truth": "'validation dataset' is a part of training dataset which is used in cross validation to increase the performance of model. this validation dataset goes under continuous testing with the seen or known data. so that the model gets trained properly & performs performs well on unseen data.",
+      "similarity": 1.6713091922005572
+    },
+    {
+      "line_number": 9,
+      "extracted": "4) the auc value of a perfect classifier is 1.",
+      "ground_truth": "for a single feature variable two model parameters are required [y = mx + c]",
+      "similarity": 32.78688524590164
+    },
+    {
+      "line_number": 10,
+      "extracted": "5) recall is important for a spam email detection system.",
+      "ground_truth": "the auc value of a project classifier is 1. ",
+      "similarity": 19.801980198019802
+    }
+  ]
+}

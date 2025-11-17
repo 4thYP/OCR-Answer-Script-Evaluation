@@ -1,0 +1,140 @@
+Debopriya Lahiri
+13030822008
+CSE-AIML
+Machine Learning Applications (PCCAIML601)
+6
+
+Part A
+1. Two most common supervised learning tasks are- Classification &
+Regression.
+2. The purpose of Validation Set is to reduce the problem of overfitting
+and underfitting and by improving generalization if reduce
+generalization error.
+3. There are only one model parameter (θ) and bias term (θ₀) with
+a single feature variable.
+4. AUC value of perfect Classifier is 1.
+5. Recall is more important for Spam detection System.
+
+Part B
+9. Confusion Matrix :- Confusion Matrix is a comprehensive model
+evaluation or performance measure matrix which is
+visualised as a tabular form and counts the number of
+actual outputs versus predicted output.
+
+Actual
+P
+N
+Predicted
+TP FN
+FP TN
+
+TP - True Positive is model is predicted positive classes correctly.
+FP - False Positive is model predicted positive but actual is
+negative (Type I error).
+FN - False negative is model predicted negative but actual is
+positive. (Type II error).
+TN - True negative is model predicted negative classes correctly.
+TP+FP = Total +ve predictions
+FN+TN = Total -ve predictions
+TP+FN = Total actual positives
+FP+TN = Total actual negatives
+TP+FP+FN+TN = Total predictions
+
+* Impor-tantce :
+① Confusion matrix provides show the model is performing in unseen
+data, helps its evaluate o its generalization Capability.
+② It helps to calculate other performance measure metrics
+accuracy = TP+TN
+TP+FP+FN+TN
+Precision = TP
+TP+FP
+Recall = TP
+TP+FN.
+ROC Curve : Plot of TPR and FPR at diffent theesold.
+PR Curve :- Curve of Precision & Recall.
+
+In given classification problem, TN = 82
+FP = 3,
+FN = 5.
+TP = 10.
+Precision = TP = 10 = 10
+TP+FP 10+3 13
+Recall = TP = 10 = 10 = 2
+TP+FN 10+5 15 3
+False negative rate = FN = FN = 5 = 5 = 1
+FP+TN FN+TP 5+10 15 3
+False Positive rate = FP = 3 = 3
+FP+TN 3+82 85
+
+6.) Train - Test Split :- Train - Test Split ais defined by dividing the
+whole dataset into two portions .
+① Train Set :- For train the data to the model . (higher in ratio)
+② Test Set :- For testing the model predictions and performance
+in unseen data. (smaller in ratio) (70:30)
+It is generally used in Supervised learning algorithms where
+we train the model by labelled data and test the model
+by the providing the Unlabelled data and compare the
+actual and predicted output.
+- from sklearn.model_selection import train_test_split
+Overfitting :- Overfitting occurs when model performs good in
+training set and poor in testing set.
+- In overfitting model tries to memorize the data rather
+than generalizing.
+
+- In ourfitting, model chas high Variance and low bias.
+- Model tries to vis too Complex that it tries fo predict all points in training but done fo high Variance it fails fo predict unseen data.
+
+Overfitting
+
+Underfitting : Underfitting occurs when model performs poor in training and testing data.
+- In a under fitting model doconot able fo extract the true patterns of data and have its own path (far from actual output).
+- Here, model chas high bias and low variance.
+- Class imbalance leads something high bias and
+- Model is to simple or linear and can't capture non-linear relations.
+
+Underfitting
+
+- Ways fo Prevent.
+- Use ensemble learning Techniques (Bagging & Boosting)
+- Use Regularization Methods (Ridge, lasso, Elastic Net)
+- Standardization and Normalization.
+- Fon Overfitting, do feature Selection and for under fitting use kernel fsach (svm) and model with non-linear ste chernels.
+
+7.) Bias : Bias refers fo the difference between actual and predicted output. It defines how close the generalizing hypothesis is of Axile hypothesis. (low Bias : Near to actual value). (High Bias : Far from actual, happens due to class imbalance/sparse dataset).
+
+Variance : Variance refers how model predictions change by changing the features/feature vectors. It refers how scatter the predicted Values are (low Variance -> datas (predicted are not Scatter (close to each other) High Variance -> predicted points are Scattered).
+
+- Reducing Way fo Reduce Them :
+- To reduce bias, we need fo balance the dataset by doing oversampling of minor class and under sampling of major class. do ensemble methods like boosting random forest, bagging
+
+- To reduce Variance we need to do boosting techniques. We do
+feature Selection (Regularization Techniques)
+Bias Variance Tradeoff
+Low Bias.
+High Bias
+Low Variance
+High Variance
+generalization graph.
+Optimal point is where bias
+and Variance is minimum.
+(Low bias and low
+Variance)
+10. ROC Curve:- ROC (Receiver Operating Characteristics)
+refers to the graph of TPR vs FPR at different thresholds.
+AUC: AUC (Area under Curve) refers to the area of ROC
+Curve.
+Perfect Classifier (AOC=1).
+Random Classifier (AOC=0.5)
+Random Classifier (0.5≤AOC≤1).
+Precision Recall Tradeoff. It defines by the Curve of Precision
+and Recall. It plots Precision and recalls.
+Precision (Specificity) & Recall (Sensitivity)
+are inversely proportions.
+Precision = TP
+TP+FP
+Recall = TP
+TP+FN
+It defines the change
+of FP (Precision) and
+FN (Recall)
+Optimal points defines where Precision and Recall is minimum

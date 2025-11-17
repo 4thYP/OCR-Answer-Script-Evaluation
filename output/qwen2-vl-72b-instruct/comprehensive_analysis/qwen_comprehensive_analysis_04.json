@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "25.08%",
+    "word_accuracy": "81.80%",
+    "cer": "25.21%",
+    "wer": "37.23%",
+    "bleu_4": "63.45%",
+    "rouge_l_f1": "82.03%",
+    "bertscore_f1": "37.33%",
+    "extracted_words": 492,
+    "ground_truth_words": 376
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 25.213100044863168,
+      "wer": 37.234042553191486
+    },
+    "bleu_scores": {
+      "bleu_1": 72.76422764227642,
+      "bleu_2": 69.61327921730037,
+      "bleu_3": 66.54796652600156,
+      "bleu_4": 63.454430009181316
+    },
+    "rouge_scores": {
+      "rouge_1": 92.57142857142857,
+      "rouge_2": 85.48387096774194,
+      "rouge_l_recall": 94.68085106382979,
+      "rouge_l_precision": 72.35772357723577,
+      "rouge_l_f1": 82.02764976958525
+    },
+    "bertscore": {
+      "precision": 32.926829268292686,
+      "recall": 43.08510638297872,
+      "f1": 37.327188940092164
+    },
+    "traditional_metrics": {
+      "character_accuracy": 25.075711689884916,
+      "word_accuracy": 81.79723502304147,
+      "precision": 32.926829268292686,
+      "recall": 43.08510638297872,
+      "f1_score": 37.327188940092164
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2774,
+    "ground_truth_character_count": 2234,
+    "extracted_word_count": 492,
+    "ground_truth_word_count": 376,
+    "common_word_count": 162
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "Name Ishaan Singh Mandla\nRoll No. 13030822004 Stream CSE (AI & ML)\nSubject Application of Machine Le...",
+    "first_100_chars_ground_truth": "Name: Ishaan Singh Mandla\nRoll No.: 13030823004\n\nPart A\nTwo most common supervised tasks:\nClassifica..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "name ishaan singh mandla",
+      "ground_truth": "name: ishaan singh mandla",
+      "similarity": 97.95918367346938
+    },
+    {
+      "line_number": 2,
+      "extracted": "roll no. 13030822004 stream cse (ai & ml)",
+      "ground_truth": "roll no.: 13030823004",
+      "similarity": 61.29032258064516
+    },
+    {
+      "line_number": 3,
+      "extracted": "subject application of machine learning in industries (pcc - aiml601) semester 6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 5,
+      "extracted": "ans 1) two most common supervised tasks:",
+      "ground_truth": "two most common supervised tasks:",
+      "similarity": 90.41095890410958
+    },
+    {
+      "line_number": 6,
+      "extracted": "(i) classification",
+      "ground_truth": "classification",
+      "similarity": 87.5
+    },
+    {
+      "line_number": 7,
+      "extracted": "(ii) regression",
+      "ground_truth": "regression",
+      "similarity": 80.0
+    },
+    {
+      "line_number": 8,
+      "extracted": "ans 2) validation set is used to check the accuracy of the",
+      "ground_truth": "validation set is used to check the accuracy of the trained model.",
+      "similarity": 82.25806451612904
+    },
+    {
+      "line_number": 9,
+      "extracted": "trained model.",
+      "ground_truth": "–",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 10,
+      "extracted": "ans 3)-",
+      "ground_truth": "auc of a perfect classifier is 1.",
+      "similarity": 15.0
+    },
+    {
+      "line_number": 11,
+      "extracted": "ans 4) auc value of a perfect classifier is 1.",
+      "ground_truth": "recall is more important for spam email detection, because, it gives the ratio of true positive over true positive + false positive. meaning predicted true values over actual true values.",
+      "similarity": 18.025751072961373
+    }
+  ]
+}

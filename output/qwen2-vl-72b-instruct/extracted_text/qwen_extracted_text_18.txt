@@ -1,0 +1,121 @@
+Kewal Raj
+Machine Learning
+(PCC-AIML601)
+(Part-A)
+1. The two most Common tasks are:-
+In age recognition and Customer churn Analysis.
+2. The purpose of Validation test Set are :-
+After analysing the data through trainset and testing set
+through test set for multiple times to find the final
+Accuracy Validation Set is needed.
+3. (i) Coefficient of the Variable.
+(ii) Loss function i.e mean Square error (MSE)
+(iii) Gradient decent.
+4.) AUC value of perfect classifier tanθ=1.
+5.) Out of precision, recall, recall is more important for
+a spam email detection System.
+
+(Part-B)
+
+6.1 Train-test-split:
+
+when we fit get a new dataset, we bar divide the
+dataset initially into train-test-split. i.e. 70-80% of data
+are kept initially for training and after training the
+data model, we use 30-20% of dataset for testing
+on this basis, we train the model as well as
+test the model Simultaneously, this division of dataset
+into 70-30 is splitting of data for the purpose of
+training and testing of data.
+
+Overfitting of data: And Underfitting:
+In Overfitting of data, we basically try to fit data more
+precisely and accurately, we try to Cover each and
+every point possible, which is very strict in nature
+And, Underfitting of data Says that, we are less
+Concerned of Considering dog data, we traverse in
+dataset, and whatever number of data we get is
+the possible data, But it does not give more,
+accurate models, because Sample Size of data
+may decrease.
+
+⑧ General algorithm that are available to minimize Cost
+function:
+→ Naives Bias algorithm
+→ Random forest algorithm
+→ Decision tree
+
+Cost functions depends on the regression model, we
+Select, Cost function may reduce for Some problems
+and also may increase for some problem,
+Basically, Cost function is low for linear regression
+model and at the Same time it is increased
+for logistic regression model.
+
+In Linear regression , basically we Simlify the problem
+with given Datasets , whichJ takes lead time than
+Logistic regression problem , So , it will lower the
+Cost function and Simultaneously it will increase
+the Cost function for Logistic regression problem.
+
+⑨ Confusion matrix is the essential aspect of training
+model, we will get Confusion matrix for every
+model , we train . It basically tells about the
+model in more details , without Confusion matrix
+we Can't be able to tell about the precision,
+recall, false negative rate , false positive rate of
+model.
+
+Given: TN = 82
+FP = 3
+FN = 5
+TP = 10
+
+false negative rate = FN
+                     TN + FN
+                    = 5
+                      82 + 5
+                    = 5
+                      87
+
+FNR ≈ 0.05
+
+false positive rate = FP
+                     TP + FP
+                    = 3
+                      10 + 3
+                    = 3
+                      13
+
+FPR ≈ 0.29
+
+PRECISION = 10
+           10 + 3 + 3 + 82
+          = 10
+            100
+          = 0.1
+
+Recall = TP
+        TN + TP
+       = 10
+         82 + 10
+       = 10
+         92
+       = 0.108
+
+(7) Bias and Variance of a Machine Learning model.
+- Bias are dataset (how much deviated from the
+actual central poi tendevcy)
+- Variance is the (how dataset is or far from the
+Central nature of a given treaded.
+
+To reduce Bias and Variance, we should avoid:
+- overfitting and underfitting
+- increase Sample space of datasets
+- more frequent train-test-split,
+
+Bias-variance trade off is basically, first we
+know how much deviation is there in the
+model, then we fix the model by knowing
+how far we are from the Central tendency &
+of this process is Called Bias-Variance tradeoff.

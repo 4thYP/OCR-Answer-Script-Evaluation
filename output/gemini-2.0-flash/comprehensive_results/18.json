@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "20.62%",
+    "word_accuracy": "68.64%",
+    "cer": "18.03%",
+    "wer": "41.01%",
+    "bleu_4": "46.12%",
+    "rouge_l_f1": "70.79%",
+    "bertscore_f1": "35.30%",
+    "extracted_words": 599,
+    "ground_truth_words": 517
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 18.03174603174603,
+      "wer": 41.005802707930364
+    },
+    "bleu_scores": {
+      "bleu_1": 67.9465776293823,
+      "bleu_2": 59.44473508129997,
+      "bleu_3": 52.250425858103156,
+      "bleu_4": 46.1180846300196
+    },
+    "rouge_scores": {
+      "rouge_1": 71.37681159420289,
+      "rouge_2": 59.32203389830508,
+      "rouge_l_recall": 76.40232108317214,
+      "rouge_l_precision": 65.9432387312187,
+      "rouge_l_f1": 70.78853046594982
+    },
+    "bertscore": {
+      "precision": 32.8881469115192,
+      "recall": 38.10444874274662,
+      "f1": 35.30465949820789
+    },
+    "traditional_metrics": {
+      "character_accuracy": 20.616982284667074,
+      "word_accuracy": 68.63799283154121,
+      "precision": 32.8881469115192,
+      "recall": 38.10444874274662,
+      "f1_score": 35.30465949820788
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 3398,
+    "ground_truth_character_count": 3175,
+    "extracted_word_count": 599,
+    "ground_truth_word_count": 517,
+    "common_word_count": 197
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "TECHNO MAIN SALT LAKE\n(FORMERLY TECHNO INDIA, SALT LAKE)\n\nName\nKewal Ray\nRoll No.\n13030822018\nStream...",
+    "first_100_chars_ground_truth": "Name:Keyal raj\nRoll No.: 13030823018\nPART-A\n1. The two most common tasks are:\nIn age recognition and..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "techno main salt lake",
+      "ground_truth": "name:keyal raj",
+      "similarity": 28.57142857142857
+    },
+    {
+      "line_number": 2,
+      "extracted": "(formerly techno india, salt lake)",
+      "ground_truth": "roll no.: 13030823018",
+      "similarity": 21.818181818181817
+    },
+    {
+      "line_number": 3,
+      "extracted": "",
+      "ground_truth": "part-a",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "name",
+      "ground_truth": "1. the two most common tasks are:",
+      "similarity": 16.216216216216218
+    },
+    {
+      "line_number": 5,
+      "extracted": "kewal ray",
+      "ground_truth": "in age recognition and customer-churn analysis.",
+      "similarity": 14.285714285714285
+    },
+    {
+      "line_number": 6,
+      "extracted": "roll no.",
+      "ground_truth": "2. the purpose of validation test set are:",
+      "similarity": 16.0
+    },
+    {
+      "line_number": 7,
+      "extracted": "13030822018",
+      "ground_truth": "after analysing the data through trainset and testing through test set for multiple times to find the final accuracy validation set is needed.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 8,
+      "extracted": "stream..",
+      "ground_truth": "3. (i) coefficient of the variable,",
+      "similarity": 13.953488372093023
+    },
+    {
+      "line_number": 9,
+      "extracted": "cse (alml)",
+      "ground_truth": "(ii) loss function i.e mean square error (mse)",
+      "similarity": 14.285714285714285
+    },
+    {
+      "line_number": 10,
+      "extracted": "subject machine.. learning..",
+      "ground_truth": "(iii) gradient decent.",
+      "similarity": 16.0
+    }
+  ]
+}

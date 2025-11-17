@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "42.62%",
+    "word_accuracy": "78.59%",
+    "cer": "28.27%",
+    "wer": "34.57%",
+    "bleu_4": "62.59%",
+    "rouge_l_f1": "80.09%",
+    "bertscore_f1": "35.78%",
+    "extracted_words": 508,
+    "ground_truth_words": 431
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 28.273928714457348,
+      "wer": 34.5707656612529
+    },
+    "bleu_scores": {
+      "bleu_1": 76.96850393700787,
+      "bleu_2": 71.63262940727867,
+      "bleu_3": 66.88023058003225,
+      "bleu_4": 62.5857437740673
+    },
+    "rouge_scores": {
+      "rouge_1": 88.88888888888889,
+      "rouge_2": 78.14207650273224,
+      "rouge_l_recall": 87.23897911832947,
+      "rouge_l_precision": 74.01574803149606,
+      "rouge_l_f1": 80.08519701810437
+    },
+    "bertscore": {
+      "precision": 33.07086614173229,
+      "recall": 38.97911832946635,
+      "f1": 35.78274760383387
+    },
+    "traditional_metrics": {
+      "character_accuracy": 42.616342982777574,
+      "word_accuracy": 78.59424920127796,
+      "precision": 33.07086614173229,
+      "recall": 38.97911832946635,
+      "f1_score": 35.78274760383387
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2961,
+    "ground_truth_character_count": 2509,
+    "extracted_word_count": 508,
+    "ground_truth_word_count": 431,
+    "common_word_count": 168
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "TECHNO MAIN SALT LAKE\n(FORMERLY TECHNO INDIA, SALT LAKE)\nName Harshamkit Raj.\nRoll No. ...1303082200...",
+    "first_100_chars_ground_truth": "Name: Harshankit Raj\nRoll No.: 13030822007\n\nPart A:\nThe two most common supervised tasks are classif..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "techno main salt lake",
+      "ground_truth": "name: harshankit raj",
+      "similarity": 34.146341463414636
+    },
+    {
+      "line_number": 2,
+      "extracted": "(formerly techno india, salt lake)",
+      "ground_truth": "roll no.: 13030822007",
+      "similarity": 21.818181818181817
+    },
+    {
+      "line_number": 3,
+      "extracted": "name harshamkit raj.",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "roll no. ...13030822007.",
+      "ground_truth": "part a:",
+      "similarity": 12.903225806451612
+    },
+    {
+      "line_number": 5,
+      "extracted": "stream.secal&ml).",
+      "ground_truth": "the two most common supervised tasks are classification and regression.",
+      "similarity": 20.454545454545457
+    },
+    {
+      "line_number": 6,
+      "extracted": "industries (pcc-aiml601)",
+      "ground_truth": "the purpose of validation set is to validate the performance & check the accuracy of the given trained model.",
+      "similarity": 7.518796992481203
+    },
+    {
+      "line_number": 7,
+      "extracted": "subject application. a. machine. lasering in semester 6th",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 8,
+      "extracted": "invigilator's signature...",
+      "ground_truth": "for a perfect classifier the auc value is always 1.",
+      "similarity": 18.181818181818183
+    },
+    {
+      "line_number": 9,
+      "extracted": "part a:",
+      "ground_truth": "out of precision & recall, recall is more important for a spam email detection system because it gives the ratio of true positive by true positive + false negative which gives the actual true value.",
+      "similarity": 4.878048780487805
+    },
+    {
+      "line_number": 10,
+      "extracted": "...date..",
+      "ground_truth": "",
+      "similarity": 0.0
+    }
+  ]
+}

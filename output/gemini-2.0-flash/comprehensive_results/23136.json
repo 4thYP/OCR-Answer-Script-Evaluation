@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "character_accuracy": "15.89%",
+    "word_accuracy": "69.87%",
+    "cer": "34.21%",
+    "wer": "46.79%",
+    "bleu_4": "44.33%",
+    "rouge_l_f1": "72.70%",
+    "bertscore_f1": "37.91%",
+    "extracted_words": 395,
+    "ground_truth_words": 312
+  },
+  "detailed_metrics": {
+    "error_rates": {
+      "cer": 34.20911528150134,
+      "wer": 46.794871794871796
+    },
+    "bleu_scores": {
+      "bleu_1": 66.83544303797468,
+      "bleu_2": 58.391997684285926,
+      "bleu_3": 51.01154951501413,
+      "bleu_4": 44.32574900180992
+    },
+    "rouge_scores": {
+      "rouge_1": 81.70731707317073,
+      "rouge_2": 63.970588235294116,
+      "rouge_l_recall": 82.37179487179486,
+      "rouge_l_precision": 65.0632911392405,
+      "rouge_l_f1": 72.70155586987269
+    },
+    "bertscore": {
+      "precision": 33.92405063291139,
+      "recall": 42.94871794871795,
+      "f1": 37.9066478076379
+    },
+    "traditional_metrics": {
+      "character_accuracy": 15.894039735099339,
+      "word_accuracy": 69.87270155586988,
+      "precision": 33.92405063291139,
+      "recall": 42.94871794871795,
+      "f1_score": 37.9066478076379
+    }
+  },
+  "text_statistics": {
+    "extracted_character_count": 2363,
+    "ground_truth_character_count": 1871,
+    "extracted_word_count": 395,
+    "ground_truth_word_count": 312,
+    "common_word_count": 134
+  },
+  "sample_comparison": {
+    "first_100_chars_extracted": "TECHNO MAIN SALT LAKE\n(FORMERLY TECHNO INDIA, SALT LAKE)\nName Swarnali Pramanik.\nRoll No. 1303082313...",
+    "first_100_chars_ground_truth": "Name: Swarnali Pramanik\nRoll No.: 13030823136\n\nPart A\nThe two most common supervised tasks are Regre..."
+  },
+  "major_differences": [
+    {
+      "line_number": 1,
+      "extracted": "techno main salt lake",
+      "ground_truth": "name: swarnali pramanik",
+      "similarity": 31.818181818181817
+    },
+    {
+      "line_number": 2,
+      "extracted": "(formerly techno india, salt lake)",
+      "ground_truth": "roll no.: 13030823136",
+      "similarity": 21.818181818181817
+    },
+    {
+      "line_number": 3,
+      "extracted": "name swarnali pramanik.",
+      "ground_truth": "",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 4,
+      "extracted": "roll no. 13030823136.stream. cseaiml",
+      "ground_truth": "part a",
+      "similarity": 14.285714285714285
+    },
+    {
+      "line_number": 5,
+      "extracted": "subject machine learning application 6th",
+      "ground_truth": "the two most common supervised tasks are regression and classification.",
+      "similarity": 37.83783783783784
+    },
+    {
+      "line_number": 6,
+      "extracted": "(pcc-aiml601) semester.",
+      "ground_truth": "the purpose of a validation set is used after training the model. it is used to evaluate the model performance and tuning the model.",
+      "similarity": 14.193548387096774
+    },
+    {
+      "line_number": 7,
+      "extracted": "invigilator's signature date 24/03/25",
+      "ground_truth": "2 model parameters are there in a linear regression problem with a single feature variable.",
+      "similarity": 29.6875
+    },
+    {
+      "line_number": 8,
+      "extracted": "",
+      "ground_truth": "the auc value of a perfect classifier is 1.",
+      "similarity": 0.0
+    },
+    {
+      "line_number": 9,
+      "extracted": "parot a",
+      "ground_truth": "precision is more important for a spam email detection system.",
+      "similarity": 11.594202898550725
+    },
+    {
+      "line_number": 10,
+      "extracted": "1. the two most common supervised tasks",
+      "ground_truth": "",
+      "similarity": 0.0
+    }
+  ]
+}
