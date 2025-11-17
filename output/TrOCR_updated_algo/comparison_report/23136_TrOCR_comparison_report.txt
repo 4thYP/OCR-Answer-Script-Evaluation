@@ -1,0 +1,139 @@
+OCR ACCURACY REPORT (TrOCR - Handwritten)
+============================================================
+1 1
+techno main Salt Lake
+( Formerly techno india , salt lake )
+Name . Swiss malifrocoonariki00002012
+Roll No.130308231366.stream-CSAIL-
+invigilator's signature , " you are - 4103125
+a b.a.
+" "
+# it into a bit of power . It was
+" " I say it , if it is
+" Springfield " SECRE . " NEW . "
+" " , " *
+a b. "
+" U.O. " " ... "
+" "
+0 1
+
+1 1
+2. "
+" " N. " " " " * . D.P. , ,
+" Let
+DJ cross-validation ...
+" " " " itself : " spin . "
+Print export
+0 0 0 0 0 0 0 0 0 0 0
+
+U 20
+reveall , F.SCORE ... .
+2, 1,0002,
+a b.
+T.P.
+" " " Precision - with
+tpt-f.p.
+- 10.
+" " "
+2 .25th.
+" 71043 - 13.
+c. 0.759
+" What you need to be a member of the American Parliament Party
+" JOY - " ...
+25 5.
+" F.P.N. -
+" #
+I raise positive note ...
+off-t.t.
+a b.
+2- EB
+20-05
+5 References
+" bias is a training terminology
+where the model
+0
+"
+
+topper
+" It-reduces - ... . "
+" by to produce variance , it can
+" Mr. Lewis , Selwyn , Edwin
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 References
+- First Semi since in 1932
+" 7.000 - - -
+42 2/2 " 44 -
+" B. " I'm it , " to come . " So
+" - - -
+0 1/ 1/ 1/ 1/ 1. 1. 1. 1.2 1.
+0, 4,000000
+25h.m.h.m.e.eatherland
+a fine : with a big time ever ! ... . It is now
+" 0" - - - - - - - - - - -
+" SONGLE " " " Not it's gentlemen . So ... . "
+0.0002500025000
+" " if it
+" " If . " "
+75. Sullivan suffrage . "
+30. D.
+# - - MISSING to get his own . " ... .
+" you'll
+" " 58 -
+35000
+6 References
+" " MISSING Burden . Judge Kilburne .
+" ? , "
+" 3.39 "
+
+============================================================
+Ground Truth:
+Name: Swarnali Pramanik
+Roll No.: 13030823136
+Part A
+The two most common supervised tasks are Regression and Classification.
+The purpose of a validation set is used after training the model. It is used to evaluate the model performance and tuning the model.
+2 model parameters are there in a linear regression problem with a single feature variable.
+The AUC value of a perfect classifier is 1.
+Precision is more important for a spam email detection system.
+Part B
+The dataset is splitted into training, testing and validation.
+The model trained on training set, then the model is tested on unseen test dataset.
+Overfitting:
+When a model learn noise data from the training set and the model performed well on the training set but it does not perform well on unseen data. This indicates overfitting.
+Underfitting:
+When a model is unable to learn from the training set and the model perform does not well on training set. This is called underfitting.
+Prevent them :-
+Use of good model
+Reduce the noise from data
+Scale the data
+Cross-validation
+Confusion Matrix:
+Confusion matrix is the insight of model performance. It includes correctly and incorrectly predicted data value.
+It is important:
+It can check accuracy from matrix.
+It can calculate Entropy.
+It also can calculate precision, recall and F-score.
+tn = 82
+Precision
+fp = 3
+fn = 5
+tp = 10
+Recall
+false negative rate =
+false positive rate =
+In machine learning model,
+Bias is a terminology in machine learning. It signifies a training model performing poorly in training phase.
+Variance is where the model mostly give some error in testing phase.
+It reduces:
+To reduce, it take data that it is properly scalled and the size of the data is measured.
+To reduce variance, it can use dimensionally reduction.
+Bias-Variance tradeoff is a scenario where the model perform poorly in the training phase.
+
+============================================================
+METRICS (errors shown as percentages):
+
+Char Error rate (%): 78.4208
+Word Error rate (%): 109.5588
+Bleu Error rate (%): 98.0552
+Rouge Error rate (%): 88.2771
+Bert Error rate (%): 131.9302

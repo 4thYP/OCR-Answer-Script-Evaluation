@@ -1,0 +1,78 @@
+Paper: 23138
+============================================================
+Predicted OCR Text:
+
+0 0
+techno main Salt Lake
+( Formerly techno india , Salt Lake )
+Name . Shalich_dayakim____
+0,
+" In Vigilator's Signature Assessment Assistance Agency , of RAF.
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+past A
+" ... " ... and it . " we know . "
+system .
+" Pfartzel . "
+0 0 0 0 0 0 0 0 0 0 0 0
+0 1
+testing date .
+0 0
+" 0.
+
+of the years
+obias -
+" " is - " only
+in the testing phase ...
+0 1
+PROSLICTED .
+after
+is a one of a bit
+" "
+" " precisionists .
+scientific 10 - c. "
+" p.4 - ...
+" If the possible state-size , " or ,
+42"2d.d.d.e.e.e.
+42" "
+" The Government of America
+
+============================================================
+Ground Truth:
+
+Name: Shohan Nayak
+Roll No.: 13030823138
+Part A
+Classification in Regression are the two most common supervised tasks.
+To check the accuracy of the prediction of a validation set.
+There are two model parameters are there in a linear regression problem with a single feature variable.
+AUC value of a perfect classifier is 90-100%.
+Precision is more important for a spam email detection system.
+Part B
+train-test-split is a method available in sklean that we used to split the date into training set and testing set. We use 30%. of the total data.
+Underfitting and Overfitting:
+Overfitting is a phenomenon where the machine learning model predicts two well on the training data that is seen data that does not work well on unseen data that is testing data.
+Where underfitting happens when the made performs tradly on the training data that is the seen data that predicts too well on the unseen date that is testing dataset.
+Prevention technique:
+Use of suitable model
+Scale the data
+Reduce the noice from the data
+Cross-validation
+bias – Bias is a terminology in machine learning. It signifies how a machine learning model predicting poorly in the training phase.
+variance – Variance is where the model gives error in testing phase.
+To reduce it we take date that is properly encoded, scalled and the data is moderate.
+Bias-Variance tradeoff is a scenario where if the model perform poorly in the training phase.
+Confusion matrix is the insight of model performance. It include correctly predicted and incorrectly predicted data value.
+TN = 82, FP = 3, FN = 5, TP = 10
+precision =
+recall =
+false negative rate =
+false positive rate =
+
+============================================================
+METRICS (errors shown as percentages):
+
+Char Error rate (%): 80.7480
+Word Error rate (%): 94.8413
+Bleu Error rate (%): 98.8211
+Rouge Error rate (%): 89.0625
+Bert Error rate (%): 140.3848
