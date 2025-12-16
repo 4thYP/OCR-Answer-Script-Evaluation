@@ -1,0 +1,118 @@
+
+=== Page 1 ===
+The handwritten answers extracted from the image are as follows:
+
+**Part A**
+1. Two most common supervised learning tasks are: Classification & Regression.
+2. The purpose of validation set is to reduce the problems of overfitting and underfitting and by improving quality also to balance the optimization error.
+3. There is only one model parameter (θ) and bias term (b) with a single feature variable.
+4. AUC value of perfect classifier is 1.
+5. Recall is more important for spam detection system.
+
+**Part B**
+9. Confusion Matrix - Confusion Matrix is a comprehensive model evaluation performance measure. This matrix which is visualized as a tabular form and counts the number of actual outputs versus predicted output:
+    - **[Table]**
+      \[
+      \begin{array}{c|c|c}
+      & \text{Predicted} & \text{Predicted} \\
+      \text{Actual} & \text{Positive} & \text{Negative} \\
+      \hline
+      \text{Positive} & TP (True Positive) & FN (False Negative) \\
+      \text{Negative} & FP (False Positive) & TN (True Negative) \\
+      \end{array}
+      \]
+
+      - TP - True Positive is model predicted positive class correctly.
+      - FP - False Positive is model predicted positive but actual was negative (Type I error).
+      - FN - False Negative is model predicted negative but actual was positive (Type II error).
+      - TN - True Negative is model predicted negative classes correctly.
+
+      Additional definitions:
+      - **TP+FP** = Total true predictions
+      - **FN+TN** = Total no predictions
+      - **TP+FN** = Total actual positives
+      - **FP+TN** = Total actual negatives
+
+This information provides a clear understanding and summarizes the correct responses for the questions asked. The tabular data included outlines the structure and principles of a Confusion Matrix used in model evaluation.
+
+
+=== Page 2 ===
+The handwritten answers in the image contain mathematical formulas and explanations mainly about performance metrics in a classification setting, and include discussion on train-test split in data modeling contexts. Below is the transcription of the handwritten text:
+
+1. Importance:
+   - Confusion matrix provides how the model is performing in various data. Helps to evaluate its generalization capability.
+   - Helps to calculate other performance measure metrics accurately:
+     \( \frac{TP + TN}{TP + FP + FN + TN} \)
+
+   - Precision = \( \frac{TP}{TP + FP} \)
+   - Recall = \( \frac{TP}{TP + FN} \)
+   - ROC Curve: Plot of TPR and FPR at different thresholds.
+   - PR Curve: Curve of Precision & Recall.
+
+In given classification problem, TN = 82
+FP = 3,
+FN = 5,
+TP = 10.
+
+   - Precision = \( \frac{TP}{TP + FP} = \frac{10}{10 + 3} = \frac{10}{13} \)
+   - Recall = \( \frac{TP}{TP + FN} = \frac{10}{10 + 5} = \frac{10}{15} = \frac{2}{3} \)
+   - False negative rate = \( \frac{FN}{FN + TN} = \frac{5}{5 + 10} = \frac{5}{15} = \frac{1}{3} \)
+   - False positive rate = \( \frac{FP}{FP + TN} = \frac{3}{3 + 82} = \frac{3}{85} \)
+
+6. Train-Test Split:
+   - Train/Test split as defined by dividing the whole dataset into two portions:
+     1. Train Set: To train the data to the model (e.g., 70%)
+     2. Test Set: To test predictions and performance on unseen data (small in ratio) (e.g., 30%)
+   - It is generally used in supervised learning algorithms where we train the model on labeled data and test the model by providing the unlabeled data and compare the actual and predicted outputs.
+
+   From sklearn.model_selection import train_test_split
+   - Overfitting: Our train set when model performs good in train set and poor in testing set.
+   - Underfitting: Model fails to memorize/learn patterns thus generalizing.
+
+The content includes mathematical formulae for performance evaluation like precision and recall, and discussions on the implications of dividing data into training and testing sets. The section also discusses overfitting and underfitting in the context of model performance. There does not appear to be a specific table, diagram, or figure provided other than the mentioned mathematical equations and ratios.
+
+
+=== Page 3 ===
+The handwritten content from the image can be transcribed as follows:
+
+1. "Overfitting model has high variance & low bias. Model tries to be so complex that it tries to predict all points in the training set but due to high variance it fails to predict unseen data."
+   - Diagram labeled "Overfitting"
+
+2. "Underfitting - Underfitting occurs when model performs poor in training and testing data."
+   - "In an underfitting model, does not able to extract the true patterns of data and have its own path & far from actual output, has high bias and low variance."
+   - "Thus, model has high bias and low variance."
+   - "Class imbalance leads to incorrectly fit lines and model is to simple linear and can't capture non-linear oscillations."
+   - Diagram labeled "Underfitting"
+
+3. "Ways to Prevent: 
+   - [Use] ensemble learning technology (Bagging, Boosting)
+   - Use Regularization Methods (Ridge, Lasso, Elastic Net)
+   - [Use] Standardization and Normalization
+   - [For] Overfitting, do feature selection or for underfitting use kernel tricks (SVM) and add more data."
+   - "Bias - Bias speaks to the difference between actual and predicted output & depicts how close the generalizing suppositions is of a model output. (Low-Bias: Near to actual, happens due to class imbalance. High-Bias: Far from actual, happens due to class imbalance, sparser dataset)."
+   - "Variance - Variance speaks how model prediction changes by changing the parameters of feature vectors. It signifies model overfitting the periodic values are (Low variance = model's predictions are consistent but incorrect, High Variance = predicted points are inconsistent)."
+   - "Predicting Ways to Reduce Them:
+     - To reduce bias, we must balance the data set by doing oversampling of minor class and under sampling of major class & ensemble methods like boosting, random forest, bagging."
+
+This transcription captures the content related to concepts of overfitting, underfitting, bias, variance, and ways to address these issues from the image provided.
+
+
+=== Page 4 ===
+The handwritten notes on the image discuss several topics related to machine learning model evaluation:
+
+1. **Bias-Variance Tradeoff:**
+   - To reduce variance, boosting techniques and feature selection (regularization techniques) are noted.
+   - Illustrations differentiate between low and high bias, and low and high variance. 
+
+2. **ROC Curve (Receiver Operating Characteristics):**
+   - Explains that the ROC curve is a plot of TPR (True Positive Rate) vs FPR (False Positive Rate) at different thresholds.
+   - AUC (Area Under Curve) represents the area of the ROC curve.
+   - Diagrams demonstrate the performance of a perfect classifier (AUC=1) and a random classifier (AUC 0.5).
+
+3. **Precision-Recall Tradeoff:**
+   - Defined by the curve of Precision and Recall. It plots Precision (x-axis) and Recall (y-axis).
+   - Explains that Precision is TP / (TP + FP) and Recall is TP / (TP + FN), where TP is True Positives, FP is False Positives, and FN is False Negatives.
+   - Diagrams show an optimal point where precision and recall are balanced (optimal sensitivity).
+
+The diagrams and formulas integrated in the notes visually represent the tradeoffs and metrics associated with evaluating the performance of classification models in machine learning.
+

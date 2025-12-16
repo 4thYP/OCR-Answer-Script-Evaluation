@@ -1,0 +1,37 @@
+﻿Part A
+1. Customer - Churn Analysis and Image Recognition
+2. Purpose of a validation set:-
+* after analysing the data through train set and testing it through test set for multiple times, to find the final accuracy validation set is needed.
+3. 
+* Co-efficents of the variable
+* Loss function i.e. Mean Squared Error (MSE).
+* Gradient Decent
+4. The AUC of a perfect claosifeir is :-
+(y_2-y_1)/(x_2-x_1 )=tan⁡s
+∴tan⁡s≥1
+5. Out of Precisecin and Recall, recall is more important in Spam Detection.
+
+Part B
+6. When we get a new dataset we divide the dataset initially into train-test-speit i.e. 70-80% of data are kept in initially for training and after training the model. it gets tested on the rest 20-30% data i.e. known as the data set. So, if we sum up the whole train test theory we get the train test split.
+Owrfitting of training data takes place when the train data set exceeds the number of test data sets, aeeerfitting occurs. Oxerfitting can be preuented by splitting up of data during preprocessing in order to execute each data set during single processes.
+Underfitting occurs when the test data set is less than the train data set. To auaid underfitting, unsupervised learning principle is followed in order to reduce this phenomenana.
+
+8. General Algorithms that are aeeuitalele to minimize the cost function:-
+-> Naixe Bayes Algorithm
+-> Random Forest Algorithm
+-> Decision Tree.
+
+9. Confusion Matrix:- it is said to be the generation of matrix data in order to analyse the statisticeel regression of a data set so that the model data is plaeted and can lee cumpared to that of a trained model data to compare the accuracy leetween the data sets.
+False negative rate - 5%
+False positive rate - 3%
+Precision - 92%
+Recall - 0.63
+
+10. ROC stands for Radiae of a Curue and AUC stands for Area under Curue, where ROC is said to be the radial point of the curue with respect to its arigins and AUC is the total area of the respective curue.
+
+Diagrams:
+1. A straight diagonal line graph labeled with "(Perceptron)" and a comment "Perfect classifier".
+2. A dotted line graph labeled with "(SVM-C SVM)".
+3. A straight line graph rising steeply from the corner, without a label.
+
+Pruician Recall trade off:- It is the single process that is executed multiple times in order to achieue pruision of the whale data set execution.

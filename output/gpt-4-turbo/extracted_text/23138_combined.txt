@@ -1,0 +1,36 @@
+Part A
+1) Classification and Regression are the two most common supervised tasks.
+
+2) To check the accuracy of the predictions of a validation set.
+
+3) There are two model parameters and there in a Linear regression problem with a single feature variable.
+
+4) MSE value of a perfect classifier is 0.
+
+5) Precision is more important for a spam email detection system.
+
+Part B
+6) Train-test-split is a method available in scikit-learn that we used to split the data into training set and testing set. We use 30% of the total data for underrating and overfitting.
+   - Overfitting is a phenomenon used where the machine learning model predicts too well on the training data that is seen data that doesn't work well on unseen data that is test data.
+   - Where underfitting happens when the model performs steadily on the training data that is the seen data, that predicts steadily too well on unseen data that is testing dataset.
+   - Prevention/Correction Techniques -
+     1) Use of suitable model
+     2) Scale the data
+     3) reduce the noise from the data
+     4) cross-validation
+
+7) bias -> Bias is a terminology in machine learning. It originates from a machine learning model predicting poorly in the training phase. Basically the error in the training phase called as bias.
+
+   variance -> Variance is when the model gives error in the testing phase.
+   To reduce it we take data that is properly encoded, scaled and the size of the data is moderate.
+   bias-variance tradeoff is a scenario where if the model performs poorly in the training phase.
+
+9) confusion matrix is the matrix of model performance; it includes correctly predicted and incorrectly forecasted data values.
+
+There is also a drawing of a confusion matrix table, labeled as "predicted" with cells TP, FN, FP, and TN, followed by calculations:
+
+   TN = 82, FP = 3, FN = 5, TP = 10
+   precision = 10 / (10+3) = 10 / 13
+   recall = 10 / (10+5) = 10 / 15
+   false negative rate = 5 / 15 = 1 / 3
+   false positive rate = 3 / (82+3) = 3 / 85

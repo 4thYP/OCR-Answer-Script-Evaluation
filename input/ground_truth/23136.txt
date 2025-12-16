@@ -1,0 +1,48 @@
+﻿Part A
+    1. The two most common supervised tasks are Regression and Classification.
+    2. The purpose of a validation set is used after training the model. It is used to evaluate the model performance and tuning the model.
+    3. 2 model parameters are there in a linear regression problem with a single feature variable.
+    4. The AUC value of a perfect classifier is 1.
+    5. Precision is more important for a spam email detection system.
+
+Part B
+    6. The dataset is splitted into training, testing and validation.
+The model trained on training set, then the model is tested on unseen test dataset.
+
+Overfitting:
+When a model learn noise data from the training set and the model performed well on the training set but it does not perform well on unseen data. This indicates overfitting.
+
+Underfitting:
+When a model is unable to learn from the training set and the model perform does not well on training set. This is called underfitting.
+
+Prevent them :-
+    1. Use of good model
+    2. Reduce the noise from data
+    3. Scale the data
+    4. Cross-validation
+
+    9. Confusion Matrix:
+Confusion matrix is the insight of model performance. It includes correctly and incorrectly predicted data value.
+It is important:
+    a. It can check accuracy from matrix.
+    b. It can calculate Entropy.
+    c. It also can calculate precision, recall and F-score.
+
+tn = 82
+fp = 3
+fn = 5
+tp = 10
+Precision = TP / (TP+FP) = 10 / (10+3) = 10/13 ≈ 0.769
+Recall = TP / (TP+FN) = 10 / (10+5) = 10/15 ≈ 0.666
+False negative rate = FN / (TP+FN) = 5 / (10+5) = 5/15 ≈ 0.333
+False positive rate = 1 - Precision = 1 - 0.769 = 0.231 
+
+    7. In machine learning model,
+Bias is a terminology in machine learning. It signifies a training model performing poorly in training phase.
+Variance is where the model mostly give some error in testing phase.
+
+It reduces:
+    a. To reduce, it take data that it is properly scalled and the size of the data is measured.
+    b. To reduce variance, it can use dimensionally reduction.
+
+Bias-Variance tradeoff is a scenario where the model perform poorly in the training phase.

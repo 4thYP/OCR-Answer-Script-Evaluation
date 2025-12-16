@@ -1,0 +1,38 @@
+Part A
+1. **Customers** - Churn Analysis and Image Recognition
+2. **Purpose of a validation set**:
+   - Fine analyzing the data through known good testing & through test set for multiple times, to find the final accuracy validation set is needed.
+3. **B-Objectives of the variable**
+   - Loss function i.e. from Ground Brown (HSE) Gradient Descent.
+4. **The AUC of a perfect classifier is**:
+   - \(y_2 - y_1 / x_2 - x_1 = 1\)
+   - terms \(\geq 1\).
+5. **Out of Precision and Recall, recall is more important in Spam Detection**.
+
+Part B
+6. When we get a null dataset we divide the dataset initially into train-test split i.e., 70-80% of data are kept in 'train' for training and after training the model, the rest 20-30% data i.e., known as the 'test set’. So, if we sum up the whole train test theory we get the 'train test split'.
+
+Clustering of training data takes place when the test data set being drawn does not exceed the numbers of test data sets, overfitting occurs. Overfitting can be prevented by splitting up of data during preprocessing to ensure each cluster set during single processes.
+
+Smoothing occurs when the test data set is less than the known data set. To avoid wrongly superimposed learning of principles of clusters so order to reduce this phenomena.
+
+8. Numerical algorithms that we use include to minimize the cost function:
+- Naive Bayes Algorithm
+- Random Forest Algorithm
+- Decision Tree
+
+9. Confusion Matrix, - it is used to do the permutation of matrix data in which to analyze - the staircase regression of a data set so that the model data is plotted with can be compared to that of a normal model data to compare the accuracy between the data sets.
+
+False negative rate - 5%
+False positive rate - 3%
+Precision - 92%
+Recall - 0.63
+
+10. ROC stands for Receiver of a curve and AUC stands for Area under curve where ROC is said to be the accurate point of the curve with respect to its curves and AUC is the total area of the respective curve.
+
+Diagrams:
+1. A straight diagonal line graph labeled with "(Perceptron)" and a comment "Perfect classifier".
+2. A dotted line graph labeled with "(SVM-C SVM)".
+3. A straight line graph rising steeply from the corner, without a label.
+
+Precisions Recall Curve (PR) - It is the single precision value associated multiple values that is required purpose, times of values, to achieve precisions of these values under set execution.

@@ -1,0 +1,63 @@
+PART-A
+1. The two most common supervised tasks — A) Regression, B) Classification.
+
+2. The purpose of Validation Set is to compare model on different train-test-splits.
+
+3. In a linear regression problem with a single feature variable, there are two model parameters — A) Regression Coefficient & B) Intercept.
+
+4. The Auc value of a perfect classifier is 1.
+
+5. For a spam email detection system, Precision is more important evaluation metric.
+
+PART-B
+6. Train-test-split is the process to split the data into "Training Set" and "Test Set", for training and evaluation of the model.
+   - When the model underperforms on training data, the "Underfitting" occurs. In the case of high Bias, the model underfits on training data.
+   - If a model generalizes well on training data but doesn’t perform well on new unseen data, then "Overfitting" occurs.
+How to prevent "OVERFITTING" :
+   - Reduce noise on data.
+   - Reduce complexity.
+   - Use of cross-validation to train-test the model.
+   - Data cleaning.
+   - Reduce variance on data.
+
+How to prevent "UNDERFITTING" :
+   - Adding more data.
+   - Reduce of Bias-ness.
+   - Data cleaning.
+
+7. The 'Generalization error' is the factor in statistics and Machine Learning to improve the model performance, this generalization error is included after key learns.
+Bias: This is termed as how much the model has biasness with noise in data. A high-bias model underfits on training dataset.
+Variance: Variance defined as, how much the model changes its predictions with the variations in the data. A high variance model overfits on a training data.
+How to reduce Bias and Variance:
+   - "Reducing model complexity results in reducing the variance but it generally increases the biasness of the model and vice versa."
+   - "Although, data cleaning, reducing noise in the data reduces the bias - variance."
+Bias-Variance Tradeoff:
+   - "When we reduce the complexity of the model, the bias is increased and variance decreases,
+   \[
+   \text{Variance} \propto \frac{1}{\text{Bias}}
+   \]
+   This is called Bias-Variance Trade-off."
+
+Cost functions associated with linear regression:
+   - "MAE"
+   - "MAE RMSE"
+
+Cost function associated with classification logistic regression:
+   - "Cross-Entropy"
+
+General algorithms that are available to minimize the cost function:
+   - "Regularization"
+       - "Ridge Regularization (L2 Regularization)"
+       - "Lasso Regularization (L1 Regularization)"
+
+9. Confusion Matrix: Confusion matrix is the visualization metric tool to visualize the model evaluation of a classifier.
+   - It plays an important role in evaluation and seeing the model predictions, as it is concluded with TP, FP, TN, FN actual values.
+   - Table:
+   
+     |               | Predicted Positive | Predicted Negative |
+     |---------------|-------------------|-------------------|
+     | Actual Positive | TP                  | FN                  |
+     | Actual Negative | FP                  | TN                  |
+      
+Precision = 10/(10+82) = 10/92
+

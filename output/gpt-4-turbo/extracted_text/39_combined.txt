@@ -1,0 +1,49 @@
+Part A
+1. "Regression and classification are the two most common supervised learning tasks."
+
+2. "The purpose of validation set is to verify whether the model makes accurate predictions and to reduce overfitting and hence improve generalization."
+
+3. "There is only one model parameter in a linear regression problem with single feature variable." (A struck-through line is present, possibly indicating an error or rephrasing.)
+
+4. "The AUC value i.e. the area under the ROC (Receiver Operating Characteristics) curve of a perfect classifier is 1 square unit."
+
+5. "Out of precision and recall, Recall is the more important evaluation metric for a spam email detection system. Recall refers to the fraction of total no. of positively classified instances that are actually positive while precision quantifies the fraction of positive instances that are classified correctly."
+
+6. **Train-test-split** refers to the process of splitting available data into two distinct sets - the **training set** and one for testing the model and the other for training it. Typically, the training set is larger than the test set - e.g., **80-20%**. The set is generally used for training while the remaining 20% is used for testing.
+
+Overfitting refers to the phenomenon which occurs when the model fits its training data too well, i.e., the variance is very high and bias is low leading to poor generalization (accuracy). Overfitting results in exceptionally good results when the model is tested with known input parameters and poor results with unseen data.
+
+Underfitting refers to the exact opposite phenomenon – when the model is not able to fit the training data too well and is unable to capture its intricacies. Underfitting is a result of high bias and low variance, and yields decent results on where the model becomes very complex (e.g., a polynomial function or curve) in underfitting the model is simple (e.g., a straight line). Both underfitting and overfitting are disadvantageous, and we must try to strike a balance so as to reduce both and achieve best prediction results.
+
+
+9. - Precision = TP / (TP + FP)
+   - Recall = TP / (TP + FN)
+   - FPR (False Positive Rate) = FP / (FP + TN)
+
+   The confusion matrix is important because it enables us to obtain a visual representation of the misclassifications and the number of correctly classified instances which helps us to evaluate model performance. It also aids in the calculation of evaluation metrics such as precision, recall, F1 score etc.
+
+   - Recall = 10 / (10 + 5) = 2/3 ≈ 0.667
+   - Precision = 10 / (10 + 3) ≈ 0.769
+   - False Negative Rate (FNR) = 5 / (5 + 10) = 1/3 ≈ 0.333
+   - False Positive Rate (FPR) = 3 / (3 + 82) = 3/85 ≈ 0.035
+
+10. ROC (Receiver Operating Characteristic) curve refers to the graph or curve obtained by plotting the True Positive Rate against the False Positive Rate. AUC refers to the area enclosed under the ROC curve.
+
+The adjacent graph depicts the ROC curve for perfect, practical and random classifiers.
+
+11. "case (a) represents a case where there is no absolute no overlap between the probability distribution of negative and positive prediction. It represents implies that there are absolutely zero misclassifications i.e. both FP and FN are equal to zero, (Thus FPR=0)."
+   - "case (a) represents a perfect classifier with the ROC curve."
+3. "case (b) depicts a partial overlap which occurs in the case of most practical classifiers indicating that some instances have been incorrectly classified yielding the following ROC curve."
+4. "case (c) depicts a case where the both probability distributions are completely superimposed which occurs in case of a random classifier yielding the following ROC curve."
+
+**Diagrams:**
+- Three ROC curve diagrams:
+  - Diagram for case (a) labeled with lines for "perfect classifier", "predicted classifier" and marks indicating "TPR (True Positive Rate)" and "FPR (False Positive Rate)" as axes.
+  - Diagram for case (b) showing a partial curve with axis labels and the text "AUC < 1".
+  - Diagram for case (c) indicating a diagonal line from the origin to the top right corner with labels and the text "AUC=0.5".
+
+**Notable labels and annotations on diagrams:**
+- Axis labels: "TPR" and "FPR".
+- Annotations indicating perfect, practical, and random classifier distinctions.
+- Annotations about the Area Under Curve (AUC) for each scenario: "AUC=1" for the perfect classifier, "AUC < 1" for practical classifiers, and "AUC=0.5" for a random classifier.
+

@@ -1,0 +1,58 @@
+Part-A
+1) The two most common supervised tasks are classification and regression.
+
+2) Validation dataset is a part of training dataset which is used in cross validation. To increase the performance of model, this validation dataset goes under continuous testing with the seem [sic] or known data, so that the model gets trained properly & perform [sic] performs well on unseen data.
+
+3) For a single feature variable too model parameters are required \( y = mx \)
+
+4) The AUC value of a perfect classifier is 1.
+
+5) Recall is important for a spam email detection system.
+
+
+Part-B
+6) For a given dataset, train-test split refers to the phenomenon in which a certain part or percentage of dataset is marked as seendata or known data for the model and a remaining part of dataset is becomes the testing part for a particular machine learning model. So training the model is done using train dataset here in the model is provided input and it's [sic] corresponding output, so that the model learns the analogy and thus get trained so it can map the same when there is an unseen sample.
+So after training of the model, the time is now to check how our model perform on test set that is the Unknown unseen dataset. So here input is not mapped to output, the machine-playbacks it and we check if the model.
+Predicted output is similar to the actual data of the dataset. This gives our accuracy or model performance. Generally it's better to split 70 % as training dataset and 30 % as testing dataset. (can be 80 - 20 too).
+
+Overfitting means when the model performs well on the training dataset but not on the testing dataset the cause is usually the model is over memorizes the training dataset as a result performs poor on unseen data. To prevent this we have to reduce noise in training data thus eliminate unaccounted feature vectors and also we must use ensemble techniques like Random Forest to reduce overfitting.
+
+Underfitting means when the model performs well on neither, it doesn't performs well in both training and testing etc after its underfit condition. The usual cause is the model is not very able and adaptive to learn the data from training dataset so performs ill in both cases. To prevent it we much induce proper feature vectors and their hyperparameters in the dataset and model (tuning) respectively.
+
+7) As the term 'bias' suggests biased towards a particular entity, in machine learning too the understanding remains the same thus it means for a particular model. The model is biased to some feature vectors and not towards the others as a result model being biased towards a certain features learns learn them properly but the rest remained unclear as a result poor training of the model on entire dataset thus ultimately underfitting condition.
+To reduce bias we must choose models and train them with both dataset a number of time, we may use cross-validation approach for same also ensemble techniqu gives better results.
+   Variance in other hand as name suggest- normally this uncertain. due to presence of noisy data in dataset as a result due to presence of extra feature in dataset leads to overfitting condition. It can be reduced by applying feature reduction like PCA or SVD also ensemble techniques helps a lot.
+   Bias-variance tradeoff is a phenomenon in which if for a particular model bias increases then variance should decrease and bias vesa. We can conclude this from our own observation of overfit - underfit theory thus if bias is high it's underfit so definatly the feature vectors are less thus variance must be low.
+
+   - The diagram shows relationships between Bias, Variance, and Model Performance.
+   - Captions include "variance," "ideal for model performance," "bias," "feature vectors," "bias 1", and an arrow showing the relationship between bias and variance.
+
+8) Cost function is similar to loss function, it's called cost function when there are many feature considered at same time.
+
+9) Confusion matrix is a metrics in machine learning through which one can get an idea how to our model has classified or predicted in contrast to the actual result.
+   - Confusion Matrix structure:
+       - **Predicted value**: TP (True Positive), FP (False Positive)
+       - **Actual value**: FN (False Negative), TN (True Negative) 
+The main utility of confusion matrix is to find out the accuracy and trade of misclassification our model goes through dataset.
+
+  - TN (True Negative) = 92
+  - FP (False Positive) = 3
+  - FN (False Negative) = 5
+  - TP (True Positive) = 10
+
+    |   |  0 |  1 |
+    |---|----|----|
+    | 0 | 92 |  3 |
+    | 1 |  5 | 10 |
+
+  - **Precision**: Precision = TP / (TP + FP) = 10 / (10 + 3) = 10 / 13
+  - **Recall**: Recall = TP / (TP + FN) = 10 / (10 + 5) = 10 / 15
+  - **False Negative Rate**: FNR = FN / (FN + TP) = 5 / (5 + 10) = 5 / 15 = 1 / 3
+  - **False Positive Rate**: FPR = FP / (FP + TN) = 3 / (3 + 92) = 3 / 95
+
+8) Cost function is the term used for loss function by a model where more than one features are considered. It is actually the difference how the model deviated from actual result."
+  - **Examples of Cost Functions in Linear Regression**
+    - L2 - Ridge Regression
+    - L1 - Lasso Regularization
+    - Elastic net
+  - It mentions that the cost functions for logistic regression are similar and that "minimizer by least square principle" is one of the approaches used.
